@@ -32,7 +32,7 @@ Modelos simplificam a realidade. Escolha o que responde à pergunta, sem forçar
 - **Limite:** terminologia das categorias varia na literatura.
 
 ## Teoria do forrageamento de informação
-**Referência:** [Pirolli & Card (1999), Information Foraging](https://doi.org/10.1145/300157.300173). Modelo de busca e navegação informacional; aplicações a rótulos e arquitetura de informação são adaptações de design.
+**Referência:** [Pirolli & Card (1999), Information Foraging](https://doi.org/10.1037/0033-295X.106.4.643). Modelo de busca e navegação informacional; aplicações a rótulos e arquitetura de informação são adaptações de design.
 - **O quê:** pessoas usam pistas para estimar onde encontrar informação e quanto esforço custará.
 - **Por quê:** comparam valor provável e custo de exploração.
 - **Para quem:** usuários de sites, catálogos e bases de conhecimento.
