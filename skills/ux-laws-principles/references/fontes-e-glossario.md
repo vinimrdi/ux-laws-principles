@@ -131,17 +131,83 @@ Esta seção registra cuidados de classificação que devem ser preservados nas 
 - **Teste de usabilidade:** observação de pessoas representativas realizando tarefas relevantes.
 - **Métrica de proteção (guardrail):** indicador acompanhado para detectar efeitos adversos de uma mudança.
 
+## SEO, AEO e GEO: descoberta em buscadores e sistemas de IA
+
+A descoberta orgânica deve considerar três contextos complementares. Eles se sobrepõem, mas não são sinônimos nem garantem posicionamento.
+
+### SEO: Search Engine Optimization
+
+**Objetivo:** tornar páginas úteis, acessíveis, rastreáveis e compreensíveis para mecanismos de busca tradicionais, como Google e Bing.
+
+**Aplicação neste projeto:**
+- Use títulos únicos e descritivos que correspondam à intenção de busca.
+- Estruture páginas com um H1 claro e H2/H3 hierárquicos.
+- Responda à pergunta principal sem introduções vagas.
+- Use URLs estáveis, links internos e links para fontes primárias.
+- Escreva conteúdo original, atualizado, legível e acessível.
+- Otimize desempenho, experiência mobile, indexabilidade e metadados.
+- Evite keyword stuffing, páginas criadas apenas para ranquear e conteúdo repetitivo.
+
+### AEO: Answer Engine Optimization
+
+**Objetivo:** facilitar que mecanismos de resposta encontrem, compreendam e extraiam uma resposta precisa para uma pergunta.
+
+**Aplicação neste projeto:**
+- Use perguntas reais como títulos de subseções quando isso melhorar a navegação.
+- Comece cada seção com uma definição direta e autossuficiente.
+- Explique o conceito, contexto, exceções e limites logo depois da resposta curta.
+- Inclua perguntas frequentes com respostas objetivas, sem sacrificar precisão.
+- Use listas e tabelas quando ajudarem a comparar conceitos.
+- Diferencie claramente lei, efeito, princípio, heurística, modelo e hipótese.
+- Associe afirmações a fontes identificáveis, preferencialmente primárias.
+- Não crie respostas artificiais só para tentar ocupar featured snippets.
+
+### GEO: Generative Engine Optimization
+
+**Objetivo:** aumentar a clareza, a confiabilidade e a recuperabilidade do conteúdo em sistemas de IA generativa e mecanismos de busca com respostas sintetizadas.
+
+**Aplicação neste projeto:**
+- Apresente definições explícitas, nomes completos, sinônimos e termos originais em inglês na primeira ocorrência.
+- Mantenha cada explicação compreensível fora do contexto imediato, sem remover suas ressalvas.
+- Identifique autores, datas, publicações, DOI e links estáveis sempre que disponíveis.
+- Separe evidência original, revisão, orientação profissional e inferência de aplicação.
+- Publique exemplos próprios, critérios de aplicação e limitações concretas.
+- Mantenha arquivos Markdown organizados, legíveis e com links internos funcionais.
+- Identifique autoria, mantenedor, licença, versão e data de revisão.
+- Distribua o conteúdo em canais legítimos e relevantes, preservando links para a fonte canônica.
+
+### Perguntas e termos que o conteúdo deve responder
+
+Priorize a cobertura natural de consultas como:
+- O que são leis de UX?
+- Quais são as principais leis de UX?
+- Quais são as 10 heurísticas de Nielsen?
+- Como aplicar a Lei de Fitts em botões e interfaces?
+- O que é a Lei de Hick-Hyman e como organizar opções?
+- Como melhorar a usabilidade de um site ou aplicativo?
+- Como fazer uma avaliação heurística?
+- Como aplicar UX em dashboards, SaaS e plataformas?
+- Como reduzir carga cognitiva em formulários e onboarding?
+- Como melhorar acessibilidade digital segundo WCAG 2.2?
+- Como usar leis de UX no Lovable, Claude Code, Cursor e outras ferramentas de IA?
+
+Essas consultas são hipóteses de intenção de busca. Valide demanda e linguagem com Search Console, ferramentas de pesquisa de palavras-chave, dados do site e perguntas reais de usuários. Não presuma volume de busca.
+
+### Limites e transparência
+
+Nenhuma prática de SEO, AEO ou GEO garante indexação, destaque, inclusão em respostas, citação por IA ou tráfego. Sistemas externos mudam seus algoritmos e critérios. Não prometa “ranquear no ChatGPT”, “ser citado pelo Google” ou resultados equivalentes. O objetivo controlável é publicar conteúdo original, verificável, tecnicamente acessível e fácil de compreender.
+
 ## SEO e descoberta orgânica
 
 SEO ajuda o conteúdo a ser encontrado e compreendido. Nenhuma técnica garante fama, viralização ou posição específica no Google.
 
 **Palavra-chave principal:** leis de UX.
 
-**Palavras-chave secundárias:** princípios de UX; heurísticas de usabilidade; leis de usabilidade; psicologia aplicada ao UX; design de interação; heurísticas de Nielsen; Gestalt no design; modelos mentais em UX; carga cognitiva em interfaces; experiência do usuário em produtos digitais; avaliação heurística; acessibilidade digital; teste de usabilidade.
+**Palavras-chave secundárias:** princípios de UX; heurísticas de usabilidade; leis de usabilidade; psicologia aplicada ao UX; design de interação; heurísticas de Nielsen; Gestalt no design; modelos mentais em UX; carga cognitiva em interfaces; experiência do usuário em produtos digitais; avaliação heurística; acessibilidade digital; teste de usabilidade; UX para sites; UX para dashboards; UX para SaaS; UX para aplicativos; UX no Lovable; UX com IA; AEO; GEO; otimização para mecanismos de resposta; otimização para mecanismos generativos.
 
 **Intenção de busca:** informacional e educacional.
 
-**Título SEO sugerido:** Leis de UX: Guia Completo de Princípios, Heurísticas e Modelos.
+**Título SEO sugerido:** Leis de UX: Guia Completo de Usabilidade, Princípios e Heurísticas.
 
 **Descrição SEO sugerida:** Aprenda as principais leis de UX, heurísticas de Nielsen, princípios de Gestalt e modelos de comportamento. Entenda o que são, por que importam e como aplicar em produtos digitais.
 
