@@ -1,6 +1,6 @@
-# Leis de UX
+# Leis de UX: Guia de UX, Usabilidade e Design de Produtos Digitais
 
-**Uma metodologia aberta para projetar, avaliar e melhorar experiências digitais com apoio de pessoas e agentes de IA.**
+**Guia aberto em português brasileiro sobre leis de UX, princípios de design, heurísticas de usabilidade, psicologia do usuário e pesquisa. Aprenda a aplicar esses fundamentos em sites, dashboards, SaaS, plataformas e produtos digitais, com ou sem ferramentas de IA.**
 
 [![Licença: CC BY 4.0](https://img.shields.io/badge/Documentação-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/deed.pt_BR)
 [![Idioma: pt-BR](https://img.shields.io/badge/Idioma-Português%20(Brasil)-blue.svg)](#idioma-e-escopo)
@@ -11,6 +11,14 @@ O projeto **Leis de UX** reúne leis e efeitos de comportamento, princípios de 
 É desenvolvido e mantido pela **Planner** e publicado como projeto aberto para a comunidade.
 
 > Não é uma lista de regras para justificar preferências visuais. É uma metodologia para compreender tarefas, diagnosticar fricções, tomar decisões fundamentadas e validar resultados.
+
+## Guia de leis de UX, usabilidade e experiência do usuário
+
+Leis de UX são princípios, efeitos e modelos que ajudam a explicar como as pessoas percebem informações, tomam decisões, aprendem interfaces e executam tarefas. Este guia explica conceitos como Lei de Fitts, Lei de Hick-Hyman, Lei de Jakob, Lei de Miller, heurísticas de Nielsen, princípios da Gestalt, carga cognitiva, modelos mentais e acessibilidade.
+
+O material responde, para cada conceito, a seis perguntas: **o que é, por que importa, para quem se aplica, onde usar, quando considerar e como implementar e validar**. Também apresenta limites, fontes e cuidados para não transformar tendências em regras universais.
+
+Se você procura como melhorar a experiência do usuário (UX), avaliar a usabilidade de um site, projetar um dashboard, reduzir fricção em formulários, estruturar onboarding ou criar produtos digitais com IA, este repositório oferece uma base prática e referenciada.
 
 ## Por que este projeto existe
 
@@ -35,6 +43,26 @@ O projeto ajuda designers, desenvolvedores, founders, equipes de produto e agent
 4. Consulte [compatibilidade e integrações](docs/compatibilidade-e-integracoes.md).
 5. Leia como [contribuir](CONTRIBUTING.md).
 
+## Perguntas frequentes sobre leis de UX
+
+### O que são leis de UX?
+São tendências e princípios derivados de áreas como psicologia cognitiva, percepção, interação humano-computador e design. A expressão “lei de UX” é popular, mas nem todo conceito assim chamado é uma lei científica. O guia diferencia leis empíricas, efeitos, princípios, heurísticas, modelos e princípios de engenharia.
+
+### Quais são as principais leis de UX?
+Entre as mais conhecidas estão Fitts, Hick-Hyman, Jakob, Miller e Prägnanz. O campo também utiliza efeitos como Von Restorff e Zeigarnik, heurísticas de Nielsen, princípios da Gestalt e modelos como carga cognitiva e Fogg B=MAP. A relevância depende da tarefa e do contexto.
+
+### Como aplicar leis de UX em um site ou aplicativo?
+Comece pela tarefa e pelo problema observado. Identifique o conceito pertinente, verifique a fonte e seus limites, proponha uma mudança específica e valide com testes de usabilidade, analytics ou avaliação de acessibilidade. Não aplique uma lei apenas para justificar uma preferência visual.
+
+### Como melhorar a usabilidade de um dashboard?
+Organize indicadores pelas decisões que apoiam, deixe unidades e períodos explícitos, agrupe informações relacionadas, priorize hierarquia visual e ofereça contexto para interpretar dados. Teste se as pessoas conseguem encontrar e compreender o que precisam.
+
+### É possível usar esta skill no Lovable, Claude Code, Cursor e outras IAs?
+Sim, o conteúdo em Markdown pode ser fornecido como contexto em diferentes ferramentas. O modo de instalação e o suporte nativo a Agent Skills variam entre plataformas. Consulte a [matriz de compatibilidade](docs/compatibilidade-e-integracoes.md).
+
+### As leis de UX garantem mais conversão?
+Não. Elas ajudam a formular hipóteses e explicar padrões de interação, mas não garantem conversão, retenção ou satisfação. Mudanças devem ser avaliadas com evidências e métricas que também protejam os interesses dos usuários.
+
 ## Como a metodologia funciona
 
 Cada conceito deve ser aplicado considerando seis dimensões:
@@ -49,6 +77,12 @@ Cada conceito deve ser aplicado considerando seis dimensões:
 | **Como** | Que decisão prática pode ser implementada e validada? |
 
 A metodologia também exige separar evidências observadas, dados, inspeção especializada e hipóteses. Leis e efeitos descrevem tendências, não resultados garantidos.
+
+## Como esta documentação pode ser usada por mecanismos de resposta e IAs generativas
+
+O conteúdo prioriza definições diretas, títulos descritivos, perguntas frequentes, referências identificáveis e links para fontes primárias. Isso facilita leitura por pessoas, indexação por buscadores e recuperação por sistemas de resposta e modelos generativos. A inclusão em respostas ou citações de uma IA depende dos sistemas externos e não pode ser garantida.
+
+Para citar o projeto, use o título **Leis de UX: Guia de UX, Usabilidade e Design de Produtos Digitais**, o repositório [vinimrdi/leis-de-ux](https://github.com/vinimrdi/leis-de-ux), a versão consultada e a data de acesso. Sempre que possível, cite também a fonte primária do conceito.
 
 ## Compatibilidade com ferramentas de IA
 
