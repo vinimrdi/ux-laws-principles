@@ -15,6 +15,7 @@ Escolha métodos pela pergunta. Nenhum método isolado explica toda a experiênc
 | O que a pessoa espera? | Entrevistas, testes de conceito e protótipos |
 
 ## Teste de usabilidade
+**Referências:** [Nielsen & Molich (1990), avaliação heurística](https://doi.org/10.1145/97243.97281) é uma técnica distinta do teste com participantes; Nielsen Norman Group, [Discount Usability](https://www.nngroup.com/articles/web-discount-usability/); ISO 9241-210:2019, [design centrado no ser humano](https://www.iso.org/standard/77520.html). Para planejamento e moderação, consulte Rubin & Chisnell, *Handbook of Usability Testing* (2ª ed., 2008).
 - **O quê:** observar pessoas representativas tentando tarefas relevantes.
 - **Por quê:** revela problemas de compreensão, execução, feedback e recuperação.
 - **Para quem:** usuários atuais ou potenciais representativos.
@@ -24,9 +25,11 @@ Escolha métodos pela pergunta. Nenhum método isolado explica toda a experiênc
 - **Medidas:** sucesso, tempo, erros, pedidos de ajuda, desvios e confiança.
 
 ## Entrevistas e pesquisa qualitativa
+**Referência metodológica:** ISO 9241-210:2019, [Human-centred design for interactive systems](https://www.iso.org/standard/77520.html). O padrão descreve atividades de compreensão e especificação do contexto de uso; não prescreve um roteiro único de entrevista.
 Compreenda contexto, motivações, linguagem, alternativas e expectativas. Pergunte sobre experiências reais e recentes. Evite conduzir respostas e não generalize uma opinião isolada.
 
 ## Analytics
+**Referência complementar:** Rodden, Hutchinson & Fu (2010), [Measuring the User Experience on a Large Scale](https://doi.org/10.1145/1753326.1753687), para métricas centradas no usuário em aplicações web. Analytics observacional não estabelece causalidade por si só.
 - **O quê:** dados agregados de eventos e comportamento.
 - **Por quê:** revelam frequência, sequência e distribuição.
 - **Para quem:** produto e negócio.
@@ -36,6 +39,7 @@ Compreenda contexto, motivações, linguagem, alternativas e expectativas. Pergu
 Analytics mostra o que ocorreu, não necessariamente por quê.
 
 ## Experimentos e testes A/B
+**Referências:** Kohavi, Tang & Xu, *Trustworthy Online Controlled Experiments* (Cambridge University Press, 2020), referência metodológica para experimentação online; [Kohavi et al. (2013), Online Controlled Experiments at Large Scale](https://doi.org/10.1145/2433396.2433413).
 - **O quê:** comparação controlada entre variantes.
 - **Por quê:** estima efeitos sob condições comparáveis.
 - **Para quem:** produtos com volume e instrumentação adequados.
@@ -44,6 +48,7 @@ Analytics mostra o que ocorreu, não necessariamente por quê.
 - **Como:** hipótese falsificável; métrica primária e guardrails; amostra e duração; randomização; monitoramento de efeitos adversos.
 
 ## Avaliação heurística
+**Referências:** [Nielsen & Molich (1990)](https://doi.org/10.1145/97243.97281), trabalho seminal sobre avaliação heurística; [Nielsen, 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/).
 - **O quê:** inspeção especializada baseada em heurísticas.
 - **Por quê:** encontra problemas potenciais com rapidez.
 - **Para quem:** design, produto e qualidade.
@@ -52,6 +57,7 @@ Analytics mostra o que ocorreu, não necessariamente por quê.
 - **Como:** inspecione tarefas; registre problema, heurística e impacto; estime severidade com critérios. Ausência de achados não prova ausência de problemas.
 
 ## Acessibilidade
+**Referências normativas:** [W3C, WCAG 2.2](https://www.w3.org/TR/WCAG22/) e [W3C WAI, WCAG Overview](https://www.w3.org/WAI/standards-guidelines/wcag/). Use avaliação manual e com tecnologias assistivas; ferramentas automáticas cobrem apenas parte dos critérios.
 Combine automação, teclado, foco visível, leitor de tela, zoom, reflow, contraste, redução de movimento, rótulos e alternativas a gestos. Ferramenta automática não comprova conformidade WCAG sozinha.
 
 ## Nível de evidência
