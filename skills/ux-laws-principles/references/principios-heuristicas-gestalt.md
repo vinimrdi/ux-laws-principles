@@ -2,7 +2,7 @@
 
 ## As 10 heurísticas de usabilidade de Jakob Nielsen
 
-Heurísticas são princípios gerais de inspeção, não requisitos técnicos exatos nem fórmula de pontuação.
+Heurísticas são princípios gerais de inspeção, não requisitos técnicos exatos nem fórmula de pontuação. **Fonte principal:** [Nielsen, 10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/). **Base histórica:** [Nielsen & Molich (1990), Heuristic evaluation of user interfaces](https://doi.org/10.1145/97243.97281).
 
 1. **Visibilidade do estado do sistema**
    - **O quê:** informar o que acontece por feedback oportuno.
@@ -85,6 +85,8 @@ Heurísticas são princípios gerais de inspeção, não requisitos técnicos ex
     - **Como:** instruções curtas, exemplos e busca.
 
 ## Princípios de Don Norman
+
+**Referência principal:** Norman, D. A., *The Design of Everyday Things* (edição revisada, 2013). A obra desenvolve modelos conceituais, feedback, mapeamento, affordances e signifiers. A terminologia foi refinada ao longo das edições; não trate cada termo como uma taxonomia imutável.
 - **Descobribilidade:** perceber ações possíveis e onde executá-las. Use rótulos, estados e sinais claros.
 - **Feedback:** comunicar resultado de uma ação de forma oportuna e proporcional.
 - **Modelo conceitual:** representar de modo compreensível como o sistema funciona.
@@ -96,6 +98,8 @@ Heurísticas são princípios gerais de inspeção, não requisitos técnicos ex
 Affordance e signifier não são sinônimos. Em interfaces digitais, os sinais ajudam a descobrir a possibilidade real de ação.
 
 ## Gestalt
+
+**Referência histórica:** Koffka, K. (1935), *Principles of Gestalt Psychology*. As descrições abaixo são sínteses didáticas de princípios perceptivos. A transposição para interfaces digitais é uma aplicação de design, não uma lista de critérios normativos testáveis.
 - **Proximidade:** elementos próximos parecem relacionados. Aproxime rótulos, campos e ajuda.
 - **Similaridade:** elementos semelhantes parecem da mesma categoria. Use padrões coerentes.
 - **Região comum:** elementos na mesma área parecem agrupados. Evite contêineres aninhados demais.
@@ -114,7 +118,9 @@ Consistência; revelação progressiva; padrões seguros e reversíveis; manipul
 - **Compreensível:** conteúdo e funcionamento claros e previsíveis.
 - **Robusto:** conteúdo interpretável por diferentes agentes, inclusive tecnologias assistivas.
 
-WCAG 2.2 possui critérios testáveis e níveis A, AA e AAA. Verificação automática isolada não comprova conformidade. Avalie páginas completas e estados responsivos.
+**Fontes normativas:** [W3C, WCAG 2.2](https://www.w3.org/TR/WCAG22/) e [W3C WAI, WCAG Overview](https://www.w3.org/WAI/standards-guidelines/wcag/). WCAG 2.2 possui critérios testáveis e níveis A, AA e AAA. Verificação automática isolada não comprova conformidade. Avalie páginas completas e estados responsivos.
 
 ## Ética e autonomia
+
+As recomendações desta seção são critérios editoriais e de design ético do projeto. Para avaliação de padrões manipulativos, consulte também [FTC, Bringing Dark Patterns to Light](https://www.ftc.gov/reports/bringing-dark-patterns-light) e [OECD, Dark Commercial Patterns](https://www.oecd.org/en/publications/dark-commercial-patterns_44f5e846-en.html).
 Mostre preços, renovação, taxas e consequências antes do compromisso. Mantenha cancelamento e controles acessíveis. Não fabrique escassez, prova social, progresso ou urgência. Evite custos ocultos, continuidade forçada e cancelamento obstrutivo. Otimize sucesso informado, não apenas cliques.
