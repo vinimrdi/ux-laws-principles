@@ -1,6 +1,6 @@
 ---
 name: leis-principios-heuristicas-modelos-ux
-description: Guia aprofundado em português brasileiro sobre leis de UX, princípios, heurísticas de usabilidade, psicologia cognitiva, Gestalt, modelos mentais, comportamento, acessibilidade e pesquisa. Use para projetar, avaliar, auditar e melhorar produtos digitais, interfaces, jornadas, navegação, formulários, onboarding e conversão.
+description: Skill de UX em português brasileiro para aplicar leis de UX, princípios de design, heurísticas de usabilidade, psicologia do usuário, Gestalt, modelos cognitivos, acessibilidade e pesquisa. Use ao criar, projetar, programar, avaliar ou auditar sites, landing pages, dashboards, SaaS, aplicativos, plataformas e produtos digitais com Lovable, Claude, Claude Code, Cursor, GitHub Copilot, ChatGPT, Gemini ou outros agentes de IA. Ajuda a melhorar UX, UI, arquitetura da informação, navegação, formulários, onboarding, conversão e acessibilidade com evidências e validação.
 metadata:
   author: vinimrdi
   version: "1.0.0"
@@ -16,6 +16,28 @@ Base de conhecimento prática para aplicar fundamentos de experiência do usuár
 Este skill reúne leis e efeitos de comportamento, percepção, memória, decisão e interação; princípios de design centrado no ser humano; heurísticas de usabilidade; Gestalt; modelos cognitivos e comportamentais; acessibilidade; pesquisa e validação.
 
 Não existe uma lista universal e fechada de todas as leis de UX. O campo combina resultados de disciplinas diferentes e com níveis distintos de evidência. Algumas expressões populares chamadas de “leis” são, na realidade, heurísticas, efeitos contextuais, modelos ou princípios de engenharia. Identifique corretamente cada categoria e não atribua precisão científica indevida.
+
+## Quando ativar esta skill
+
+Ative esta skill quando a tarefa envolver:
+- Criar ou redesenhar um site, landing page, aplicativo, dashboard, SaaS, plataforma ou produto digital.
+- Projetar fluxos, arquitetura da informação, navegação, onboarding, formulários, busca, filtros, checkout ou assinaturas.
+- Fazer auditoria de UX/UI, avaliação heurística, revisão de usabilidade ou análise de conversão.
+- Aplicar psicologia cognitiva, leis de UX, heurísticas de Nielsen, Gestalt, modelos mentais ou carga cognitiva.
+- Melhorar acessibilidade, responsividade, microcopy, feedback, estados de erro ou recuperação de tarefas.
+- Orientar implementação com Lovable, Claude Code, Cursor, GitHub Copilot ou outros agentes e ambientes de desenvolvimento assistidos por IA.
+
+Não ative apenas porque a tarefa menciona “design” ou “UX”. Use quando os princípios de experiência do usuário forem relevantes para a decisão.
+
+## Respostas diretas: dúvidas comuns
+
+**O que são leis de UX?** Tendências e princípios que ajudam a explicar como as pessoas percebem, decidem e interagem com produtos. Nem todo conceito popularmente chamado de lei é uma lei científica.
+
+**Quais leis de UX são mais conhecidas?** Fitts, Hick-Hyman, Jakob, Miller e Prägnanz estão entre as mais conhecidas. O campo também utiliza efeitos, heurísticas, princípios perceptivos e modelos comportamentais.
+
+**Como aplicar leis de UX em sites e aplicativos?** Identifique a tarefa e a fricção observada, selecione o conceito pertinente, verifique sua fonte e seus limites, proponha uma mudança específica e valide com usuários ou dados.
+
+**Esta skill funciona no Lovable, Claude Code e Cursor?** O conteúdo Markdown pode ser utilizado como contexto em diferentes ferramentas. A instalação automática como skill depende do suporte de cada ambiente. Consulte a documentação de compatibilidade.
 
 ## Método obrigatório: O Quê, Por Quê, Para Quem, Onde, Quando e Como
 
