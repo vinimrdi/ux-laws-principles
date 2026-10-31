@@ -1,5 +1,5 @@
 ---
-name: leis-principios-heuristicas-modelos-ux
+name: leis-de-ux
 description: Skill de UX em português brasileiro para aplicar leis de UX, princípios de design, heurísticas de usabilidade, psicologia do usuário, Gestalt, modelos cognitivos, acessibilidade e pesquisa. Use ao criar, projetar, programar, avaliar ou auditar sites, landing pages, dashboards, SaaS, aplicativos, plataformas e produtos digitais com Lovable, Claude, Claude Code, Cursor, GitHub Copilot, ChatGPT, Gemini ou outros agentes de IA. Ajuda a melhorar UX, UI, arquitetura da informação, navegação, formulários, onboarding, conversão e acessibilidade com evidências e validação.
 metadata:
   author: vinimrdi
