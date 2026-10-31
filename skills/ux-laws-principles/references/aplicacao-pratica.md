@@ -1,7 +1,7 @@
 # Aplicação prática de UX por produto e jornada
 
 ## Navegação e arquitetura
-**Referências relacionadas:** [Lei de Jakob e Hick-Hyman](leis-e-efeitos-ux.md); [Information Foraging, Pirolli & Card (1999)](https://doi.org/10.1145/300157.300173); [Gestalt](principios-heuristicas-gestalt.md).
+**Referências relacionadas:** [Lei de Jakob e Hick-Hyman](leis-e-efeitos-ux.md); [Information Foraging, Pirolli & Card (1999)](https://doi.org/10.1037/0033-295X.106.4.643); [Gestalt](principios-heuristicas-gestalt.md).
 - **O quê:** organização de conteúdo, funcionalidades e caminhos.
 - **Por quê:** pessoas precisam prever onde encontrar algo.
 - **Para quem:** visitantes, novos usuários e especialistas.
@@ -31,7 +31,7 @@
 - **Conceitos:** Fitts, prevenção de erros, reconhecimento e feedback.
 
 ## Busca e filtros
-**Referências relacionadas:** [Information Foraging, Pirolli & Card (1999)](https://doi.org/10.1145/300157.300173); [heurísticas de reconhecimento e visibilidade de estado](principios-heuristicas-gestalt.md).
+**Referências relacionadas:** [Information Foraging, Pirolli & Card (1999)](https://doi.org/10.1037/0033-295X.106.4.643); [heurísticas de reconhecimento e visibilidade de estado](principios-heuristicas-gestalt.md).
 - **O quê:** mecanismos para localizar e refinar conteúdo.
 - **Por quê:** reduzir espaço de busca sem perder contexto.
 - **Para quem:** usuários de catálogos, bases, dashboards e marketplaces.
