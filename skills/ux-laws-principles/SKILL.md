@@ -30,6 +30,19 @@ Para cada conceito, responda:
 
 Não invente respostas para preencher as seis dimensões. Declare quando uma dimensão não se aplica ou quando faltam evidências.
 
+## Rastreabilidade de fontes
+
+Ao explicar um conceito, consulte a referência correspondente em `references/fontes-e-glossario.md` e mantenha a fonte próxima da afirmação no documento ou na resposta.
+
+- Prefira estudo original, revisão científica ou norma oficial quando existir.
+- Use fontes profissionais para explicar aplicação prática, não para provar mecanismos científicos.
+- Não invente DOI, autoria, ano, título ou URL.
+- Se a referência for secundária, histórica ou indireta, identifique isso explicitamente.
+- Se não houver fonte direta identificada, declare a lacuna. Não preencha com uma citação apenas parecida.
+- Diferencie a evidência que sustenta o conceito da evidência que sustenta uma recomendação específica de interface.
+- Preserve limites de generalização, população, tarefa e contexto do estudo.
+- Em auditorias, cite a fonte do conceito e indique que a aplicação ao caso é uma interpretação que precisa ser validada.
+
 ## Regras de raciocínio
 
 - Comece pelo objetivo do usuário, pela tarefa e pelo contexto.
