@@ -2,33 +2,33 @@
 
 Notable changes to this project are recorded here.
 
+## 1.4.0 — 2026-11-01
+
+- Governance and community docs translated to English:
+  - `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`
+  - `docs/strategy-and-governance.md`
+  - `integracoes/lovable/README.md`
+  - GitHub issue and PR templates
+- Official language set to English for new contributions.
+- SKILL.md improvements:
+  - Explicit **When NOT to use** section
+  - **Severity scale** (0–4) for findings
+  - **Definition of Done** for recommendations
+  - Richer frontmatter `description` with stronger trigger terms
+- Skill version 1.4.0.
+
 ## 1.3.0 — 2026-11-01
 
-- Completed full English conversion of the knowledge base:
-  - `references/sources-and-glossary.md`
-  - `exemplos/dashboard-evaluation-example.md`
-  - `exemplos/landing-page-review-example.md`
-  - `demonstracoes/fitts-law-demo.md`
-  - `demonstracoes/hick-law-demo.md`
-  - `demonstracoes/cognitive-load-demo.md`
-- Skill version 1.3.0 — ready for English-speaking AI agents and global discovery.
-- Portuguese originals remain in the repo for reference during transition.
+- Full English knowledge base (sources & glossary, remaining examples and demos).
 
 ## 1.2.0 — 2026-11-01
 
-- Translated core references: models, practical application, research & validation.
-- Updated SKILL.md reference library to English paths.
+- Models, practical application, research & validation in English.
 
-## 1.1.1 — 2026-11-01
+## 1.1.x — 2026-11-01
 
-- English translations of laws & effects, principles/heuristics/Gestalt.
-- Compatibility guide, heuristic audit example, social banner SVG.
-
-## 1.1.0 — 2026-11-01
-
-- Main skill and README converted to English.
-- Improved triggers, output format, symptom index, SEO/AEO/GEO structure.
+- Core skill and main references converted to English; social banner; compatibility guide.
 
 ## 1.0.0 — 2026-10-30
 
-- Initial publication of the independent project.
+- Initial publication.

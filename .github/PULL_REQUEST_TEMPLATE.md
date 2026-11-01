@@ -1,15 +1,15 @@
-## Objetivo
+## Goal
 
-## Mudanças realizadas
+## Changes made
 
-## Fontes e evidências
+## Sources and evidence
 
-## Limitações, trade-offs e impactos
+## Limitations, trade-offs, and impacts
 
 ## Checklist
-- [ ] Diferenciei lei, efeito, princípio, heurística, modelo ou norma.
-- [ ] Não apresentei tendência como regra determinística.
-- [ ] Incluí fontes verificáveis.
-- [ ] Mantive o português brasileiro claro.
-- [ ] Considerei acessibilidade e ética.
-- [ ] Atualizei o changelog quando necessário.
+- [ ] Distinguished law, effect, principle, heuristic, model, or standard.
+- [ ] Did not present a trend as a deterministic rule.
+- [ ] Included verifiable sources.
+- [ ] Wrote in clear English.
+- [ ] Considered accessibility and ethics.
+- [ ] Updated the changelog when needed.

@@ -1,17 +1,17 @@
 ---
-name: Relato de problema
-about: Reporte erro, imprecisão ou link quebrado na documentação
-title: "[Problema] "
+name: Bug report
+about: Report an error, inaccuracy, or broken link in the documentation
+title: "[Bug] "
 labels: documentation
 assignees: ""
 ---
 
-## Arquivo ou seção
+## File or section
 
-## O que está incorreto?
+## What is incorrect?
 
-## Evidência ou fonte
+## Evidence or source
 
-## Como reproduzir ou verificar?
+## How to reproduce or verify?
 
-## Sugestão de correção
+## Suggested fix

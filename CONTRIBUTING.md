@@ -1,44 +1,47 @@
-# Como contribuir
+# Contributing
 
-Contribuições são bem-vindas. O objetivo é manter uma referência útil, rigorosa, acessível e aplicável a produtos digitais reais.
+Contributions are welcome. The goal is to keep a useful, rigorous, accessible, and applicable reference for real digital products.
 
-## Antes de propor
+**Official language of this project is English.** New contributions should be written in English. Portuguese materials may remain during transition but should not be expanded.
 
-1. Consulte a documentação existente para evitar duplicação.
-2. Identifique se a contribuição trata de lei, efeito, princípio, heurística, modelo, norma ou método.
-3. Prefira fontes primárias, pesquisa original, padrões oficiais e instituições reconhecidas.
-4. Não apresente correlação como causalidade nem tendência como regra determinística.
-5. Preserve linguagem clara em português brasileiro.
+## Before proposing
 
-## Como documentar um conceito
+1. Check existing documentation to avoid duplication.
+2. Identify whether the contribution is a law, effect, principle, heuristic, model, standard, or method.
+3. Prefer primary sources, original research, official standards, and recognized institutions.
+4. Do not present correlation as causation or a trend as a deterministic rule.
+5. Keep language clear and precise.
 
-Sempre que aplicável, descreva:
+## How to document a concept
 
-- **O Quê:** definição.
-- **Por Quê:** mecanismo, fundamento e relevância.
-- **Para Quem:** públicos e contextos afetados, incluindo exceções.
-- **Onde:** componentes, telas, fluxos ou etapas.
-- **Quando:** condições de aplicação e limites.
-- **Como:** decisões práticas e formas de validação.
+Whenever applicable, describe:
 
-Inclua fontes, autoria e data quando verificáveis. Não invente referências. Se a evidência for limitada ou controversa, declare isso.
+- **What:** definition.
+- **Why:** mechanism, foundation, and relevance.
+- **Who:** audiences and contexts affected, including exceptions.
+- **Where:** components, screens, flows, or stages.
+- **When:** conditions of application and limits.
+- **How:** practical decisions and ways to validate.
 
-## Exemplos e recomendações
+Include sources, authorship, and date when verifiable. Do not invent references. If evidence is limited or controversial, say so.
 
-- Contextualize o problema e a tarefa do usuário.
-- Separe observação, evidência e hipótese.
-- Explique trade-offs e possíveis efeitos adversos.
-- Evite dark patterns, manipulação, coerção e exploração de vulnerabilidades.
-- Não prometa aumento de conversão sem validação.
+## Examples and recommendations
+
+- Contextualize the problem and the user task.
+- Separate observation, evidence, and hypothesis.
+- Explain trade-offs and possible adverse effects.
+- Avoid dark patterns, manipulation, coercion, and exploitation of vulnerabilities.
+- Do not promise conversion gains without validation.
 
 ## Pull requests
 
-- Descreva o problema que a mudança resolve.
-- Liste arquivos alterados.
-- Inclua fontes e limitações.
-- Para exemplos de interface, explique o contexto e o resultado esperado.
-- Mantenha alterações focadas e documentação navegável.
+- Describe the problem the change solves.
+- List changed files.
+- Include sources and limitations.
+- For interface examples, explain context and expected outcome.
+- Keep changes focused and documentation navigable.
+- Update `CHANGELOG.md` when appropriate.
 
-## Licenças
+## Licenses
 
-Ao contribuir, você concorda que sua contribuição textual será disponibilizada sob CC BY 4.0 e que código enviado será disponibilizado sob MIT, conforme os avisos do repositório. Não envie material de terceiros sem permissão ou licença compatível.
+By contributing, you agree that textual contributions are available under CC BY 4.0 and that code contributions are available under MIT, as stated in the repository. Do not submit third-party material without permission or a compatible license.

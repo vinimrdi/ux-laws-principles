@@ -1,21 +1,21 @@
-# Leis de UX no Lovable
+# UX Laws & Principles in Lovable
 
-O Lovable é um ambiente prioritário de aplicação desta metodologia por permitir criar sites, dashboards, plataformas e aplicações com assistência de IA.
+Lovable is a priority environment for applying this methodology because it enables building sites, dashboards, platforms, and applications with AI assistance.
 
-## Como usar
+## How to use
 
-1. Disponibilize `skills/ux-laws-principles/SKILL.md` e as referências necessárias no contexto do projeto.
-2. Comece por uma auditoria somente de leitura.
-3. Revise os achados e aprove um escopo.
-4. Implemente apenas mudanças autorizadas.
-5. Execute QA funcional, visual, responsivo e de acessibilidade.
+1. Make `skills/ux-laws-principles/SKILL.md` and the needed references available in project context.
+2. Start with a **read-only audit**.
+3. Review findings and approve a scope.
+4. Implement only authorized changes.
+5. Run functional, visual, responsive, and accessibility QA.
 
-Consulte os prompts completos em [Compatibilidade e integrações](../../docs/compatibilidade-e-integracoes.md).
+Full prompts are in [Compatibility and integrations](../../docs/compatibility-and-integrations.md).
 
-## Princípio operacional
+## Operating principle
 
-A metodologia não autoriza refatorações amplas nem substitui decisões aprovadas. Preserve design system, tokens, componentes e arquitetura existentes. Não faça alterações de banco, secrets, integrações pagas ou publicação sem autorização explícita.
+The methodology does not authorize broad refactors or override approved decisions. Preserve the existing design system, tokens, components, and architecture. Do not change databases, secrets, paid integrations, or publish without explicit authorization.
 
-## Resultado esperado
+## Expected outcome
 
-Cada recomendação deve conter evidência, conceito relacionado, impacto, trade-offs, confiança e forma de validação. Se a inspeção não permitir confirmar um problema, classifique-o como hipótese.
+Each recommendation must include evidence, related concept, impact, trade-offs, confidence, and a way to validate. If inspection cannot confirm a problem, classify it as a hypothesis.

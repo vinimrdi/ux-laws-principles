@@ -1,11 +1,11 @@
 ---
 name: ux-laws-principles
-description: Evidence-based UX skill for AI agents and designers. Apply UX laws, usability heuristics, Gestalt principles, cognitive models, accessibility, and research methods when creating, reviewing, or auditing digital products. Use for sites, landing pages, dashboards, SaaS, apps, forms, onboarding, navigation, and conversion flows with Claude Code, Cursor, Lovable, Codex, Copilot, and similar tools.
+description: Evidence-based UX skill for AI agents and designers. Apply UX laws, Nielsen heuristics, Gestalt, cognitive load, mental models, accessibility (WCAG), and research methods when creating, reviewing, or auditing digital products. Use for sites, landing pages, dashboards, SaaS, apps, forms, onboarding, navigation, checkout, conversion flows, heuristic evaluation, usability review, and AI-generated UI with Claude Code, Cursor, Lovable, Codex, Copilot, and similar tools. Do not use for pure visual styling preferences, brand identity, or marketing copy with no task or usability implication.
 metadata:
   author: vinimrdi
-  version: "1.3.0"
+  version: "1.4.0"
   language: en
-  tags: [ux, usability, design, agent-skills, accessibility, product-design]
+  tags: [ux, usability, design, agent-skills, accessibility, product-design, heuristic-evaluation]
 ---
 
 # UX Laws, Principles, Heuristics & Models
@@ -28,7 +28,14 @@ Activate when the task involves:
 - Improving accessibility, responsiveness, microcopy, feedback, error states, or task recovery
 - Guiding implementation with Lovable, Claude Code, Cursor, GitHub Copilot, Codex, or other AI-assisted development environments
 
-Do not activate only because the task mentions "design" or "UX". Use it when user-experience principles are relevant to the decision.
+## When NOT to use this skill
+
+Do **not** activate (or treat findings as primary) when:
+- The request is only about visual style, brand colors, illustration, or decorative layout with no task or usability impact
+- The request is pure marketing copy, SEO keyword lists, or brand voice with no interaction or comprehension problem
+- Legal, medical, or regulatory compliance is the sole question (defer to specialists; this skill may still inform accessibility)
+- The user only asks for a glossary definition with no product decision
+- There is no user task, interface, or flow to evaluate
 
 ## Common questions (direct answers)
 
@@ -48,12 +55,12 @@ Yes. The Markdown content can be used as context in different tools. Automatic i
 
 For every concept, answer:
 
-1. **WHAT** — Objective definition. What does the concept describe? Which phenomenon, mechanism, or rule is involved?
-2. **WHY** — Foundation and relevance. Why does this happen? Which problem does it help explain? What benefit or risk is associated?
-3. **WHO** — Audience and context. Which profiles, abilities, needs, experience levels, or situations are most affected? What are the exceptions?
-4. **WHERE** — Points of application. On which components, screens, flows, channels, or journey stages is it relevant?
-5. **WHEN** — Conditions of use. Which signals indicate the concept is pertinent? When should it not be applied?
-6. **HOW** — Practical application. Which design, content, interaction, or technology decisions materialize the concept? How to validate the result?
+1. **WHAT** — Objective definition. What does the concept describe?
+2. **WHY** — Foundation and relevance. Why does this happen? What benefit or risk is associated?
+3. **WHO** — Audience and context. Which profiles or situations are most affected? Exceptions?
+4. **WHERE** — Points of application. Components, screens, flows, or stages.
+5. **WHEN** — Conditions of use. Signals that the concept is relevant; when not to apply it.
+6. **HOW** — Practical decision and how to validate the result.
 
 Do not invent answers to fill the six dimensions. State when a dimension does not apply or when evidence is missing.
 
@@ -62,13 +69,13 @@ Do not invent answers to fill the six dimensions. State when a dimension does no
 When explaining a concept, consult the corresponding reference in `references/` and keep the source close to the claim.
 
 - Prefer the original study, scientific review, or official standard when it exists.
-- Use professional sources to explain practical application, not to prove scientific mechanisms.
+- Use professional sources to explain practice, not to prove scientific mechanisms.
 - Do not invent DOI, authorship, year, title, or URL.
-- If the reference is secondary, historical, or indirect, identify that explicitly.
-- If no direct source is identified, declare the gap. Do not fill with a merely similar citation.
-- Distinguish the evidence that supports the concept from the evidence that supports a specific interface recommendation.
-- Preserve limits of generalization, population, task, and context of the study.
-- In audits, cite the source of the concept and indicate that application to the case is an interpretation that needs validation.
+- If the reference is secondary or indirect, say so.
+- If no direct source is identified, declare the gap.
+- Distinguish evidence for the concept from evidence for a specific interface recommendation.
+- Preserve limits of generalization, population, task, and context.
+- In audits, cite the concept source and mark application to the case as an interpretation that needs validation.
 
 ## Reasoning rules
 
@@ -76,12 +83,12 @@ When explaining a concept, consult the corresponding reference in `references/` 
 - Diagnose before prescribing. Describe the observable problem before citing a law.
 - Use concepts selectively. Do not force theories onto an interface.
 - Treat laws as trends with limits, not deterministic truths.
-- Separate observed evidence, analytics data, research, expert inspection, technical facts, and hypotheses.
+- Separate observed evidence, analytics, research, expert inspection, technical facts, and hypotheses.
 - Recognize conflicts: simplicity can hide features; familiarity can limit innovation; consistency can perpetuate bad patterns; automation can reduce control.
 - Consider mobile, keyboard, assistive technologies, interruptions, errors, slow networks, and different experience levels.
 - Define measurable outcomes before implementing.
 - Respect autonomy, privacy, and ethics. Do not use psychology to deceive, coerce, or exploit vulnerabilities.
-- Prefer the smallest effective intervention. Fix the source of friction before adding tutorials, animations, or components.
+- Prefer the smallest effective intervention.
 - Do not turn aesthetic preference into a universal rule.
 - A well-known law does not prove that a change will increase conversion or retention.
 
@@ -108,13 +115,35 @@ Choose an appropriate method: usability testing, analytics, accessibility evalua
 - **What was observed:** concrete problem.
 - **Evidence:** source and method.
 - **Related concept:** law, principle, heuristic, or model.
-- **What / Why / Who / Where / When / How:** detailed application to the case.
+- **What / Why / Who / Where / When / How:** application to the case.
 - **Impact:** consequence for user and product.
+- **Severity:** 0–4 (see scale below).
 - **Trade-off:** what may get worse.
 - **Validation:** how to test.
 - **Confidence:** confirmed / probable / hypothesis.
 
-A UX recommendation must be tied to a real objective, supported by evidence or labeled as a hypothesis, respect accessibility and autonomy, fit product constraints, and allow validation.
+### Severity scale
+
+| Level | Meaning |
+|-------|---------|
+| **0** | Not a usability problem (preference or edge case only). |
+| **1** | Cosmetic or minor friction; users can complete the task easily. |
+| **2** | Moderate; causes delay, confusion, or occasional errors. |
+| **3** | Serious; many users fail or abandon part of the task. |
+| **4** | Critical; blocks the primary task or causes severe harm (data loss, wrong irreversible action, exclusion). |
+
+Severity is independent of confidence. A hypothesis can be severity 3; a confirmed issue can be severity 1.
+
+### Definition of Done (for a UX recommendation)
+
+A recommendation is complete only when it:
+1. Ties to a real user objective or observed friction.
+2. Is supported by evidence or explicitly labeled as a hypothesis.
+3. Names the concept category (law / effect / principle / heuristic / model).
+4. States severity and confidence.
+5. Respects accessibility and user autonomy.
+6. Fits product constraints (or states what would need to change).
+7. Defines how success will be validated.
 
 Never write only "this violates Hick’s Law". Explain which options compete, why they are hard to distinguish, who is affected, which context matters, and what evidence would confirm the diagnosis.
 
@@ -173,4 +202,4 @@ Read only the file needed:
 
 ## Version
 
-1.3.0 — Full English knowledge base: all core references, examples, demos, sources and glossary translated.
+1.4.0 — When NOT to use; severity scale (0–4); Definition of Done; richer activation description; English governance docs.

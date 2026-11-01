@@ -1,5 +1,5 @@
-# Segurança e relatos responsáveis
+# Security and responsible disclosure
 
-Este repositório é documentação e exemplos. Não envie segredos, tokens, dados pessoais, informações confidenciais de usuários ou dumps de produção em issues e pull requests.
+This repository is documentation and examples. Do not submit secrets, tokens, personal data, confidential user information, or production dumps in issues or pull requests.
 
-Para relatar exposição acidental de dados ou risco de segurança, utilize os canais privados disponibilizados pelo GitHub para o repositório. Não publique detalhes exploráveis em uma issue pública.
+To report accidental data exposure or a security risk, use the private channels provided by GitHub for the repository. Do not publish exploitable details in a public issue.

@@ -1,16 +1,16 @@
-# Código de conduta
+# Code of conduct
 
-Este projeto busca uma comunidade aberta, técnica, respeitosa e colaborativa.
+This project aims for an open, technical, respectful, and collaborative community.
 
-Esperamos que participantes:
+We expect participants to:
 
-- Tratem pessoas com respeito, independentemente de experiência, identidade ou formação.
-- Critiquem ideias e decisões, não características pessoais.
-- Aceitem feedback fundamentado e divergências profissionais.
-- Evitem assédio, discriminação, ataques pessoais, intimidação e exposição indevida.
-- Citem fontes e reconheçam contribuições.
-- Priorizem acessibilidade, autonomia e segurança dos usuários nos exemplos propostos.
+- Treat people with respect regardless of experience, identity, or background.
+- Critique ideas and decisions, not personal characteristics.
+- Accept grounded feedback and professional disagreement.
+- Avoid harassment, discrimination, personal attacks, intimidation, and undue exposure.
+- Cite sources and acknowledge contributions.
+- Prioritize accessibility, autonomy, and user safety in proposed examples.
 
-Comportamentos abusivos não serão tolerados. Relatos podem ser encaminhados aos mantenedores por meio dos canais privados disponibilizados pelo GitHub.
+Abusive behavior will not be tolerated. Reports can be sent to maintainers through the private channels provided by GitHub.
 
-A moderação buscará ser proporcional, transparente e consistente.
+Moderation will aim to be proportional, transparent, and consistent.

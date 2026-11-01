@@ -1,18 +1,18 @@
 ---
-name: Propor conceito ou melhoria
-about: Sugira conceito, referência, exemplo ou melhoria metodológica
-title: "[Proposta] "
+name: Concept or improvement proposal
+about: Suggest a concept, reference, example, or methodological improvement
+title: "[Proposal] "
 labels: enhancement
 assignees: ""
 ---
 
-## Proposta
+## Proposal
 
-## Categoria
-Lei / efeito / princípio / heurística / modelo / método / norma / outro
+## Category
+Law / effect / principle / heuristic / model / method / standard / other
 
-## O Quê, Por Quê, Para Quem, Onde, Quando e Como
+## What, Why, Who, Where, When, and How
 
-## Fontes primárias ou referências verificáveis
+## Primary sources or verifiable references
 
-## Limitações e possíveis controvérsias
+## Limitations and possible controversies
