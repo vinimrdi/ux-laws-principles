@@ -2,6 +2,16 @@
 
 Notable changes to this project are recorded here.
 
+## 1.2.0 — 2026-11-01
+
+- Translated remaining core references to English:
+  - `references/ux-models.md`
+  - `references/practical-application.md`
+  - `references/research-and-validation.md`
+- Updated SKILL.md reference library to English paths.
+- Skill version 1.2.0 — core knowledge base fully available in English.
+- `fontes-e-glossario.md` still pending full English translation (sources & glossary).
+
 ## 1.1.1 — 2026-11-01
 
 - Added English translations:
@@ -17,9 +27,8 @@ Notable changes to this project are recorded here.
 - Converted main skill (`SKILL.md`) and README to English.
 - Improved activation triggers, analysis output format, and symptom → concept index.
 - Clarified target situations and primary AI environments (Claude Code, Cursor, Lovable, Codex, Copilot, etc.).
-- Strengthened SEO / AEO / GEO structure (direct definitions, question-oriented headings, explicit concept categories).
+- Strengthened SEO / AEO / GEO structure.
 - Updated install guidance for Agent Skills.
-- Version bump of skill to 1.1.0.
 
 ## 1.0.0 — 2026-10-30
 
