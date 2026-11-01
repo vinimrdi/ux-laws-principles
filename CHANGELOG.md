@@ -1,12 +1,21 @@
-# Histórico de versões
+# Changelog
 
-Mudanças relevantes do projeto são registradas aqui.
+Notable changes to this project are recorded here.
+
+## 1.1.0 — 2026-11-01
+
+- Converted main skill (`SKILL.md`) and README to English.
+- Improved activation triggers, analysis output format, and symptom → concept index.
+- Clarified target situations and primary AI environments (Claude Code, Cursor, Lovable, Codex, Copilot, etc.).
+- Strengthened SEO / AEO / GEO structure (direct definitions, question-oriented headings, explicit concept categories).
+- Updated install guidance for Agent Skills.
+- Version bump of skill to 1.1.0.
 
 ## 1.0.0 — 2026-10-30
 
-- Publicação inicial do projeto independente.
-- Migração da documentação de leis, efeitos, princípios, heurísticas, modelos, aplicação prática e pesquisa.
-- Inclusão de licença para documentação e código.
-- Inclusão de governança comunitária e diretrizes de contribuição.
-- Inclusão de matriz de compatibilidade e guias de integração com ferramentas de IA.
-- Inclusão de exemplos de auditoria e demonstrações conceituais.
+- Initial publication of the independent project.
+- Migration of documentation on laws, effects, principles, heuristics, models, practical application, and research.
+- Added licenses for documentation and code.
+- Added community governance and contribution guidelines.
+- Added compatibility matrix and integration guides for AI tools.
+- Added audit examples and conceptual demonstrations.
