@@ -2,39 +2,33 @@
 
 Notable changes to this project are recorded here.
 
+## 1.3.0 — 2026-11-01
+
+- Completed full English conversion of the knowledge base:
+  - `references/sources-and-glossary.md`
+  - `exemplos/dashboard-evaluation-example.md`
+  - `exemplos/landing-page-review-example.md`
+  - `demonstracoes/fitts-law-demo.md`
+  - `demonstracoes/hick-law-demo.md`
+  - `demonstracoes/cognitive-load-demo.md`
+- Skill version 1.3.0 — ready for English-speaking AI agents and global discovery.
+- Portuguese originals remain in the repo for reference during transition.
+
 ## 1.2.0 — 2026-11-01
 
-- Translated remaining core references to English:
-  - `references/ux-models.md`
-  - `references/practical-application.md`
-  - `references/research-and-validation.md`
+- Translated core references: models, practical application, research & validation.
 - Updated SKILL.md reference library to English paths.
-- Skill version 1.2.0 — core knowledge base fully available in English.
-- `fontes-e-glossario.md` still pending full English translation (sources & glossary).
 
 ## 1.1.1 — 2026-11-01
 
-- Added English translations:
-  - `references/ux-laws-and-effects.md`
-  - `references/principles-heuristics-gestalt.md`
-  - `docs/compatibility-and-integrations.md`
-  - `exemplos/heuristic-audit-example.md`
-- Added `assets/social-banner.svg` for social preview.
-- Updated SKILL.md reference links and version to 1.1.1.
+- English translations of laws & effects, principles/heuristics/Gestalt.
+- Compatibility guide, heuristic audit example, social banner SVG.
 
 ## 1.1.0 — 2026-11-01
 
-- Converted main skill (`SKILL.md`) and README to English.
-- Improved activation triggers, analysis output format, and symptom → concept index.
-- Clarified target situations and primary AI environments (Claude Code, Cursor, Lovable, Codex, Copilot, etc.).
-- Strengthened SEO / AEO / GEO structure.
-- Updated install guidance for Agent Skills.
+- Main skill and README converted to English.
+- Improved triggers, output format, symptom index, SEO/AEO/GEO structure.
 
 ## 1.0.0 — 2026-10-30
 
 - Initial publication of the independent project.
-- Migration of documentation on laws, effects, principles, heuristics, models, practical application, and research.
-- Added licenses for documentation and code.
-- Added community governance and contribution guidelines.
-- Added compatibility matrix and integration guides for AI tools.
-- Added audit examples and conceptual demonstrations.

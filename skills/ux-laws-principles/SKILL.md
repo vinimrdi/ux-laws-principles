@@ -3,7 +3,7 @@ name: ux-laws-principles
 description: Evidence-based UX skill for AI agents and designers. Apply UX laws, usability heuristics, Gestalt principles, cognitive models, accessibility, and research methods when creating, reviewing, or auditing digital products. Use for sites, landing pages, dashboards, SaaS, apps, forms, onboarding, navigation, and conversion flows with Claude Code, Cursor, Lovable, Codex, Copilot, and similar tools.
 metadata:
   author: vinimrdi
-  version: "1.2.0"
+  version: "1.3.0"
   language: en
   tags: [ux, usability, design, agent-skills, accessibility, product-design]
 ---
@@ -146,7 +146,7 @@ Read only the file needed:
 - [Cognitive, behavioral and experience models](references/ux-models.md)
 - [Practical application by product and journey](references/practical-application.md)
 - [Research, evaluation and validation](references/research-and-validation.md)
-- [Sources, glossary and SEO](references/fontes-e-glossario.md) *(Portuguese — full English translation pending)*
+- [Sources, glossary and SEO](references/sources-and-glossary.md)
 
 ## Where this skill is most useful
 
@@ -173,4 +173,4 @@ Read only the file needed:
 
 ## Version
 
-1.2.0 — All core reference files translated to English (laws, principles/Gestalt, models, practical application, research & validation). Skill fully usable in English.
+1.3.0 — Full English knowledge base: all core references, examples, demos, sources and glossary translated.
