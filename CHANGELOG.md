@@ -2,6 +2,16 @@
 
 Notable changes to this project are recorded here.
 
+## 1.1.1 — 2026-11-01
+
+- Added English translations:
+  - `references/ux-laws-and-effects.md`
+  - `references/principles-heuristics-gestalt.md`
+  - `docs/compatibility-and-integrations.md`
+  - `exemplos/heuristic-audit-example.md`
+- Added `assets/social-banner.svg` for social preview.
+- Updated SKILL.md reference links and version to 1.1.1.
+
 ## 1.1.0 — 2026-11-01
 
 - Converted main skill (`SKILL.md`) and README to English.

@@ -3,7 +3,7 @@ name: ux-laws-principles
 description: Evidence-based UX skill for AI agents and designers. Apply UX laws, usability heuristics, Gestalt principles, cognitive models, accessibility, and research methods when creating, reviewing, or auditing digital products. Use for sites, landing pages, dashboards, SaaS, apps, forms, onboarding, navigation, and conversion flows with Claude Code, Cursor, Lovable, Codex, Copilot, and similar tools.
 metadata:
   author: vinimrdi
-  version: "1.1.0"
+  version: "1.1.1"
   language: en
   tags: [ux, usability, design, agent-skills, accessibility, product-design]
 ---
@@ -141,12 +141,12 @@ Use this index only as a starting point. Always verify relevance to the specific
 ## Reference library
 
 Read only the file needed:
-- [UX laws and effects](references/leis-e-efeitos-ux.md) *(to be fully translated)*
-- [Principles, heuristics and Gestalt](references/principios-heuristicas-gestalt.md)
-- [Cognitive, behavioral and experience models](references/modelos-de-ux.md)
-- [Practical application by product and journey](references/aplicacao-pratica.md)
-- [Research, evaluation and validation](references/pesquisa-e-validacao.md)
-- [Sources, glossary and SEO](references/fontes-e-glossario.md)
+- [UX laws and effects](references/ux-laws-and-effects.md)
+- [Principles, heuristics and Gestalt](references/principles-heuristics-gestalt.md)
+- [Cognitive, behavioral and experience models](references/modelos-de-ux.md) *(Portuguese — translation pending)*
+- [Practical application by product and journey](references/aplicacao-pratica.md) *(Portuguese — translation pending)*
+- [Research, evaluation and validation](references/pesquisa-e-validacao.md) *(Portuguese — translation pending)*
+- [Sources, glossary and SEO](references/fontes-e-glossario.md) *(Portuguese — translation pending)*
 
 ## Where this skill is most useful
 
@@ -173,4 +173,4 @@ Read only the file needed:
 
 ## Version
 
-1.1.0 — English conversion, improved triggers, structured output, symptom index, clearer agent guidance.
+1.1.1 — Core references translated (laws & effects, principles/heuristics/Gestalt); English filenames; compatibility guide and example updated.
