@@ -3,7 +3,7 @@ name: ux-laws-principles
 description: Evidence-based UX skill for AI agents and designers. Apply UX laws, Nielsen heuristics, Gestalt, cognitive load, mental models, accessibility (WCAG), and research methods when creating, reviewing, or auditing digital products. Use for sites, landing pages, dashboards, SaaS, apps, forms, onboarding, navigation, checkout, conversion flows, heuristic evaluation, usability review, and AI-generated UI with Claude Code, Cursor, Lovable, Codex, Copilot, and similar tools. Do not use for pure visual styling preferences, brand identity, or marketing copy with no task or usability implication.
 metadata:
   author: vinimrdi
-  version: "1.4.0"
+  version: "1.4.2"
   language: en
   tags: [ux, usability, design, agent-skills, accessibility, product-design, heuristic-evaluation]
 ---
@@ -157,6 +157,7 @@ Never write only "this violates Hick’s Law". Explain which options compete, wh
 | Complexity pushed onto the user | Tesler’s Law |
 | Forms reject reasonable input | Postel’s Law |
 | Visual clutter, weak hierarchy | Prägnanz, Gestalt |
+| Related items look unrelated | Proximity, Similarity, Uniform connectedness, Common region |
 | Users forget items between screens | Miller / working memory, Recognition over recall |
 | Critical items ignored in lists | Serial position, Von Restorff |
 | Abandoned multi-step flows | Zeigarnik, Goal-Gradient |
@@ -164,6 +165,8 @@ Never write only "this violates Hick’s Law". Explain which options compete, wh
 | Interface feels frozen | Doherty Threshold |
 | Attractive but hard to use | Aesthetic-Usability Effect |
 | Progress feels invisible | Goal-Gradient |
+| Scope or steps expand without value | Parkinson’s law (project adage) |
+| Extra chrome without task benefit | Occam’s Razor (simplicity heuristic) |
 
 Use this index only as a starting point. Always verify relevance to the specific task and evidence.
 
@@ -202,4 +205,4 @@ Read only the file needed:
 
 ## Version
 
-1.4.0 — When NOT to use; severity scale (0–4); Definition of Done; richer activation description; English governance docs.
+1.4.2 — Added Parkinson’s law, Occam’s Razor, and uniform connectedness (with correct category labels).
