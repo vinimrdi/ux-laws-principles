@@ -192,4 +192,26 @@ UX laws are behavioral or perceptual trends, not deterministic formulas. For eac
 - **Limit:** Do not exploit the effect for retention.
 - **Reference:** [Arkes & Blumer (1985), The Psychology of Sunk Cost](https://doi.org/10.1016/0749-5978(85)90049-4).
 
+## Parkinson’s law
+- **Category:** Adage / project principle — **not** an experimental psychological or interaction law.
+- **What:** Work tends to expand to fill the time available for its completion (popular formulation of C. Northcote Parkinson, 1955).
+- **Why:** Without clear constraints, scope, effort and duration often grow.
+- **Who:** Product, design and engineering teams; users facing open-ended setup or configuration tasks.
+- **Where:** Project planning, feature scope, onboarding length, forms, settings and research cycles.
+- **When:** Deadlines, scope or stopping rules are vague and work keeps expanding without proportional value.
+- **How:** Define timeboxes, MVP criteria, explicit non-goals and done conditions; constrain optional steps in flows.
+- **Limit:** Do not use it to justify cutting necessary complexity (see Tesler). It does not predict user behavior with a formula and is not a substitute for prioritization evidence.
+- **Reference:** Parkinson, C. N. (1955), “Parkinson’s Law,” *The Economist* (popular essay). Treat as management folklore applied carefully to product work, not as HCI research.
+
+## Occam’s Razor (simplicity principle)
+- **Category:** Philosophical / design heuristic — **not** a UX scientific law.
+- **What:** Prefer the simplest adequate explanation or solution; do not multiply entities beyond necessity (medieval principle associated with William of Ockham; applied in science and design as a preference for simplicity).
+- **Why:** Extra options, steps and decoration increase cost of comprehension and maintenance without guaranteed benefit.
+- **Who:** Teams choosing between design alternatives; users facing dense interfaces.
+- **Where:** Information architecture, flows, UI chrome, copy and feature sets.
+- **When:** Two solutions achieve the same task outcome and one is clearly simpler to understand and operate.
+- **How:** Remove steps, fields and visuals that do not support the task; keep essential complexity visible when the domain requires it.
+- **Limit:** Simplicity is not the same as incompleteness. Occam does not authorize hiding required domain complexity (Tesler) or accessibility affordances. Beauty alone is not simplicity.
+- **Reference:** Historical philosophical principle (William of Ockham). In design, treat as a cross-cutting preference aligned with minimalist heuristics, not as empirical UX law. Compare with Nielsen’s aesthetic and minimalist design heuristic and Tesler’s Law.
+
 Not every popular concept called a “law” is a scientific law. Identify whether it is an empirical trend, psychological effect, principle, heuristic, model or metaphor. Do not invent authorship or date.

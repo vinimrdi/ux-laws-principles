@@ -103,6 +103,8 @@ Affordance and signifier are not synonyms. In digital interfaces, signals help d
 - **Proximity:** Nearby elements appear related. Bring labels, fields and help closer.
 - **Similarity:** Similar elements appear to belong to the same category. Use coherent patterns.
 - **Common region:** Elements in the same area appear grouped. Avoid excessive nested containers.
+- **Uniform connectedness:** Elements that share a connected visual region (shared boundary, continuous surface, or explicit link) tend to be perceived as a single unit more strongly than by proximity or similarity alone. Use cards, shared backgrounds, connectors and clear group boundaries; do not rely only on spacing when grouping is critical.
+  - **Reference:** [Palmer & Rock (1994), Rethinking perceptual organization: The role of uniform connectedness](https://doi.org/10.3758/BF03206880). Perceptual organization research; interface application is a design interpretation.
 - **Continuity:** The eye follows alignments and sequences. Use grids and hierarchy.
 - **Figure-ground:** Differentiate content and background; preserve contrast.
 - **Closure:** Perception completes incomplete forms; do not make controls ambiguous.
@@ -110,7 +112,7 @@ Affordance and signifier are not synonyms. In digital interfaces, signals help d
 - **Common fate:** Elements that move together may appear related; use coordinated movement with meaning.
 
 ## Cross-cutting principles
-Consistency; progressive disclosure; safe and reversible defaults; direct manipulation with accessible alternatives; error tolerance; user agency; proportional feedback; alignment between appearance and behavior.
+Consistency; progressive disclosure; safe and reversible defaults; direct manipulation with accessible alternatives; error tolerance; user agency; proportional feedback; alignment between appearance and behavior; prefer the simplest adequate solution (**Occam’s Razor** as design heuristic, not scientific UX law—see laws reference); constrain open-ended work when time or scope expands without value (**Parkinson’s law** as project adage, not interaction law).
 
 ## Accessibility: WCAG POUR
 - **Perceivable:** Information presented in ways people can perceive.
