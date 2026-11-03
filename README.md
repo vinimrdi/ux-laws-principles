@@ -1,121 +1,223 @@
+<div align="center">
+
 # UX Laws & Principles
 
-**Open, evidence-based guide to UX laws, usability heuristics, Gestalt principles, cognitive models, accessibility, and research methods for digital products — designed for designers, product teams, and AI coding agents.**
+**Evidence-based UX for agents that don’t invent laws.**
 
-[![License: CC BY 4.0](https://img.shields.io/badge/Documentation-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Language: en](https://img.shields.io/badge/Language-English-blue.svg)](#language-and-scope)
-[![Version](https://img.shields.io/badge/Skill-v1.4.0-blue.svg)](skills/ux-laws-principles/SKILL.md)
-[![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
+Laws, heuristics, Gestalt, cognitive models, and accessibility — applied with a method, not as slogans.
 
-**UX Laws & Principles** brings together behavioral and perceptual laws and effects, design principles, usability heuristics, Gestalt, cognitive and behavioral models, accessibility, and research methods. Its purpose is to turn UX knowledge into practical criteria for building better digital products.
+[![License: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
+[![Skill](https://img.shields.io/badge/skill-v1.4.2-blue?style=flat-square)](skills/ux-laws-principles/SKILL.md)
+[![Language](https://img.shields.io/badge/language-English-blue?style=flat-square)](#language)
+[![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 
-Maintained by **Planner** and published as an open project for the community.
+**No fake citations. No “this violates Hick’s Law” without a task. No dark patterns dressed as psychology.**
 
-> This is not a list of rules to justify visual preferences. It is a methodology for understanding tasks, diagnosing friction, making grounded decisions, and validating results.
+[Skill](skills/ux-laws-principles/SKILL.md) · [References](skills/ux-laws-principles/references/) · [Examples](exemplos/) · [Install](#install) · [Changelog](CHANGELOG.md)
+
+</div>
+
+---
+
+## Why this exists
+
+AI agents are great at listing UX laws and bad at applying them.
+
+They cite Hick when the problem is hierarchy. They invent DOIs. They treat “7 ± 2” as a menu limit. They push conversion tricks that erode trust.
+
+This skill is a portable methodology so agents (and humans) **diagnose friction before naming a law**, keep sources honest, and produce findings you can act on.
+
+> The goal is not to collect rules. It is to understand the task, explain the problem, and validate the fix.
+
+---
+
+## Install
+
+Works with hosts that load Agent Skills (Claude Code, Cursor, Codex, Copilot, and similar):
+
+```bash
+# Option A — skills CLI (when available for this repo)
+npx skills add vinimrdi/leis-de-ux
+
+# Option B — manual (always works)
+git clone https://github.com/vinimrdi/leis-de-ux.git
+cp -r leis-de-ux/skills/ux-laws-principles ~/.claude/skills/ux-laws-principles
+# or: ~/.cursor/skills/  ·  ~/.agents/skills/  ·  project .claude/skills/
+```
+
+**Lovable / chat tools:** add `skills/ux-laws-principles/SKILL.md` and the needed files under `references/` as project context. Prefer a **read-only audit** first.
+
+Full matrix: [Compatibility and integrations](docs/compatibility-and-integrations.md) · [Lovable](integracoes/lovable/README.md)
+
+---
+
+## Ask your agent
+
+```text
+Audit this signup form with the UX Laws & Principles skill.
+Read-only. For each finding: observation, evidence, concept,
+What/Why/Who/Where/When/How, severity (0–4), confidence, validation.
+Do not change code.
+```
+
+```text
+Review this dashboard hierarchy. Are indicators grouped by decision?
+Are period, unit, and comparison visible? Use Gestalt, cognitive load,
+and visibility of system status only where they fit the task.
+```
+
+```text
+Before implementing this onboarding, evaluate drop-off risk with
+Zeigarnik, goal-gradient, and progressive disclosure. Propose the
+smallest change set. Label hypotheses vs confirmed issues.
+```
+
+```text
+Heuristic evaluation of this checkout. Flag dark patterns.
+Severity and confidence on every finding. No conversion claims
+without a validation plan.
+```
+
+---
 
 ## What you get
 
-- **Knowledge base** — laws, effects, principles, heuristics, models, and glossary
-- **Application method** — structured analysis: What, Why, Who, Where, When, How
-- **Severity scale & Definition of Done** — actionable audit findings for agents and teams
-- **Practice** — guidance for navigation, onboarding, forms, search, dashboards, checkout, mobile, and ethical conversion
-- **Research & validation** — usability testing, interviews, analytics, experiments, accessibility
-- **AI agent integration** — ready-to-use skill for Claude Code, Cursor, Lovable, Codex, Copilot, and similar tools
-- **Examples** — materials to apply and teach the concepts
+| Piece | Role |
+|-------|------|
+| **[SKILL.md](skills/ux-laws-principles/SKILL.md)** | When to activate, method, output format, severity, Definition of Done |
+| **Laws & effects** | Fitts, Hick-Hyman, Jakob, Miller, Peak-end, Zeigarnik, … with limits |
+| **Principles & Gestalt** | Nielsen heuristics, Norman, proximity, uniform connectedness, … |
+| **Models** | Mental models, cognitive load, Fogg, COM-B, HEART, JTBD, … |
+| **Practice** | Forms, onboarding, dashboards, checkout, mobile, ethical conversion |
+| **Research** | Usability tests, analytics, experiments, accessibility |
+| **Sources & glossary** | Evidence hierarchy, SEO/AEO/GEO notes |
 
-## Quick start
+---
 
-1. Read the main [skill](skills/ux-laws-principles/SKILL.md)
-2. Browse the [reference library](skills/ux-laws-principles/references/)
-3. Check [practical examples](exemplos/)
-4. See [compatibility and integrations](docs/compatibility-and-integrations.md)
-5. Read [how to contribute](CONTRIBUTING.md)
+## How findings look (the “screenshot” of this skill)
 
-### Install as an Agent Skill
+Agents should not stop at a slogan. A complete finding looks like this:
 
-**Claude Code / compatible agents**
-```bash
-# Clone or copy the skill folder into your skills directory
-git clone https://github.com/vinimrdi/leis-de-ux.git
-cp -r leis-de-ux/skills/ux-laws-principles ~/.claude/skills/ux-laws-principles
+```text
+Finding: Errors only after submit
+
+Observation: Invalid fields appear only after the full form is sent.
+Evidence: Inspection of the flow (no live user data).
+Concept: Error prevention; visibility of system status (Nielsen).
+
+What: Late feedback on validity.
+Why: Raises rework and uncertainty.
+Who: All users; harder for low digital literacy and assistive tech.
+Where: Fields + validation summary.
+When: Validation can run safely during entry.
+How: Validate at the right moment; message next to the field;
+     preserve values; announce errors accessibly.
+
+Impact: Extra steps, possible abandonment.
+Severity: 3 (serious — many users fail part of the task)
+Trade-off: More inline validation can feel noisy if over-eager.
+Validation: Task success, error rate, time, help requests; keyboard + SR.
+Confidence: Confirmed (inspection); impact needs user or analytics data.
 ```
 
-**Cursor / other agents that support skills**  
-Copy `skills/ux-laws-principles` into the location your agent expects for skills, or provide the folder as project context.
+**Severity:** 0 cosmetic … 4 critical (blocks primary task or severe harm).  
+**Confidence:** confirmed / probable / hypothesis — independent of severity.
 
-**Lovable / chat-based tools**  
-Add the skill and relevant reference files as project context. Prefer a read-only audit first, then implement only approved findings. See [Lovable integration](integracoes/lovable/README.md).
+Full rules: [SKILL.md — Analysis output format](skills/ux-laws-principles/SKILL.md)
 
-## Frequently asked questions
+---
 
-### What are UX laws?
-Trends and principles drawn from cognitive psychology, perception, human-computer interaction, and design. The popular label "UX law" does not make every concept a scientific law. This guide distinguishes empirical laws, effects, principles, heuristics, models, and engineering principles.
-
-### Which are the main UX laws?
-Among the most known: Fitts, Hick-Hyman, Jakob, Miller, and Prägnanz. The field also uses effects such as Von Restorff and Zeigarnik, Nielsen heuristics, Gestalt principles, and models such as cognitive load and Fogg B=MAP. Relevance depends on the task and context.
-
-### How do I apply UX laws to a site or app?
-Start from the task and the observed problem. Identify the relevant concept, check its source and limits, propose a specific change, and validate with usability testing, analytics, or accessibility evaluation. Do not apply a law only to justify a visual preference.
-
-### How can I improve dashboard usability?
-Organize indicators around the decisions they support, make units and periods explicit, group related information, prioritize visual hierarchy, and provide context for interpretation. Test whether people can find and understand what they need.
-
-### Can I use this skill with Lovable, Claude Code, Cursor, and other AIs?
-Yes. Markdown content can be supplied as context across tools. Native Agent Skill support varies by platform. See the [compatibility matrix](docs/compatibility-and-integrations.md).
-
-### Do UX laws guarantee higher conversion?
-No. They help form hypotheses and explain interaction patterns, but they do not guarantee conversion, retention, or satisfaction. Changes should be evaluated with evidence and metrics that also protect user interests.
-
-## How the methodology works
-
-Every concept should be applied through six dimensions:
+## Method in one table
 
 | Dimension | Question |
 |-----------|----------|
 | **What** | What does the concept describe? |
 | **Why** | Which mechanism or problem does it help explain? |
-| **Who** | Which people and contexts are affected? |
-| **Where** | On which screens, components, or stages does it apply? |
-| **When** | Which conditions make its application relevant? |
-| **How** | What practical decision can be implemented and validated? |
+| **Who** | Who is affected? Exceptions? |
+| **Where** | Screens, components, stages |
+| **When** | When is it relevant — and when not? |
+| **How** | What to change, and how to validate? |
 
-Findings also use a **severity scale (0–4)** and a **Definition of Done** so recommendations are complete and comparable. Laws and effects describe trends, not guaranteed outcomes.
+Diagnose before you cite. Prefer the smallest effective intervention. Do not turn aesthetics into universal rules.
 
-## Where this skill is especially useful
+---
 
-| Situation | Why it helps |
-|-----------|--------------|
-| AI-generated UI that feels generic or task-blind | Grounds decisions in task, friction, and evidence |
-| Landing pages & marketing sites | Hierarchy, next step, and trust |
-| SaaS dashboards & complex forms | Cognitive load, recognition, progressive disclosure |
-| Onboarding & multi-step flows | Goal-gradient, Zeigarnik, recovery |
-| Accessibility reviews | Inclusive criteria alongside UX laws |
-| Conversion-critical moments | Ethical application of psychology |
-| Design critiques & heuristic evaluations | Structured findings with confidence and severity |
+## When to use / when not to
 
-**Primary AI targets:** Claude Code, Cursor, Lovable, Codex, GitHub Copilot, Windsurf and similar agents that load SKILL.md or Markdown context.
+| Use when | Skip when |
+|----------|-----------|
+| Auditing or redesigning flows, forms, dashboards, onboarding | Pure visual style / brand with no task impact |
+| AI UI that ignores task or invents UX rules | Marketing copy or SEO keywords only |
+| Heuristic evaluation, accessibility-informed review | Glossary lookup with no product decision |
+| Conversion moments that must stay ethical | No interface, flow, or user task to evaluate |
 
-## Language and scope
+---
 
-**Official documentation language is English.** New contributions should be in English. Portuguese originals may remain in the repository during transition and should not be expanded.
+## Symptom → concept (starter map)
 
-The UX field has no universal closed list of laws. This work differentiates laws, effects, principles, heuristics, models, and engineering principles. It does not assign undeserved scientific precision to popular concepts.
+| Symptom | Start here |
+|---------|------------|
+| Hard to tap / click | Fitts |
+| Too many choices | Hick-Hyman, choice overload |
+| Unexpected patterns | Jakob |
+| Complexity dumped on the user | Tesler |
+| Clutter / weak hierarchy | Prägnanz, Gestalt |
+| Related items look unrelated | Proximity, similarity, uniform connectedness |
+| Forgotten context between screens | Miller, recognition over recall |
+| Multi-step abandonment | Zeigarnik, goal-gradient |
+| Frozen-feeling UI | Doherty threshold |
+| Scope expands without value | Parkinson (project adage) |
+| Extra chrome, no task benefit | Occam (simplicity heuristic) |
+
+Always check fit to the **task** and the **evidence**. Index is a start, not a verdict.
+
+---
+
+## Compared to a random “UX laws” list
+
+| Typical list | This skill |
+|--------------|------------|
+| Names a law | Names the **problem first** |
+| Implies universal rules | States **limits and category** (law / effect / heuristic / adage) |
+| Omits sources or invents them | Requires **traceable sources** |
+| Stops at advice | Requires **severity, confidence, validation** |
+| Silent on ethics | Explicit **anti–dark-pattern** stance |
+
+---
+
+## FAQ
+
+**What are UX laws?**  
+Trends and principles from psychology, HCI, and design. The popular label does not make every concept a scientific law.
+
+**Do they guarantee conversion?**  
+No. They support hypotheses and explanations. Validate with users, data, and metrics that also protect the user.
+
+**Does this work with Claude Code, Cursor, Lovable, Codex?**  
+Yes as Markdown context; native skill install depends on the host. See [compatibility](docs/compatibility-and-integrations.md).
+
+**Is English required?**  
+Yes for new contributions. Official documentation language is English.
+
+---
+
+## Language
+
+**English** is the official language of this project.
+
+---
 
 ## License
 
-Documentation is available under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. You may share and adapt the material, including commercially, provided you give appropriate credit and indicate changes.
+- **Documentation:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **Code** (when present): [MIT](LICENSE-CODE)
 
-Code examples and software tools, when identified as such, are available under the MIT license. See [LICENSE](LICENSE) and notices in each directory.
+---
 
-## Maintenance and responsibility
+## Maintainers
 
-Maintained by **Planner**. This documentation is educational and does not replace user research, expert evaluation, technical standards, legal advice, or accessibility validation.
+Maintained by **Planner**. Educational material — does not replace research, expert review, standards, legal advice, or accessibility validation.
 
-- [How to contribute](CONTRIBUTING.md)
-- [Code of conduct](CODE_OF_CONDUCT.md)
-- [Changelog](CHANGELOG.md)
-- [Strategy and governance](docs/strategy-and-governance.md)
-- [Sources and glossary](skills/ux-laws-principles/references/sources-and-glossary.md)
+[Contributing](CONTRIBUTING.md) · [Code of conduct](CODE_OF_CONDUCT.md) · [Strategy](docs/strategy-and-governance.md) · [Sources](skills/ux-laws-principles/references/sources-and-glossary.md)
 
-**Project:** [github.com/vinimrdi/leis-de-ux](https://github.com/vinimrdi/leis-de-ux)  
-**Maintaining organization:** Planner
+**Repo:** [github.com/vinimrdi/leis-de-ux](https://github.com/vinimrdi/leis-de-ux)
