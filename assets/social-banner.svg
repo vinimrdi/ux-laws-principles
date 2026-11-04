@@ -8,8 +8,9 @@
   <rect width="1280" height="640" fill="url(#bg)"/>
   <circle cx="1100" cy="120" r="180" fill="#3b82f6" opacity="0.15"/>
   <circle cx="200" cy="520" r="140" fill="#8b5cf6" opacity="0.12"/>
-  <text x="80" y="260" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="64" font-weight="700" fill="#f8fafc">UX Laws &amp; Principles</text>
-  <text x="80" y="340" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="32" fill="#94a3b8">Evidence-based UX for designers and AI agents</text>
-  <text x="80" y="420" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" fill="#64748b">Claude Code · Cursor · Lovable · Codex · Copilot</text>
-  <rect x="80" y="480" width="220" height="8" rx="4" fill="#3b82f6"/>
+  <text x="80" y="240" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="56" font-weight="700" fill="#f8fafc">UX Laws &amp; Principles</text>
+  <text x="80" y="320" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" fill="#94a3b8">Evidence-based UX for agents that don’t invent laws</text>
+  <text x="80" y="390" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" fill="#64748b">Claude Code · Cursor · Lovable · Codex · Copilot</text>
+  <text x="80" y="450" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" fill="#475569">No fake citations. Diagnose the task first.</text>
+  <rect x="80" y="500" width="220" height="8" rx="4" fill="#3b82f6"/>
 </svg>

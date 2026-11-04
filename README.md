@@ -37,11 +37,11 @@ Works with hosts that load Agent Skills (Claude Code, Cursor, Codex, Copilot, an
 
 ```bash
 # Option A — skills CLI (when available for this repo)
-npx skills add vinimrdi/leis-de-ux
+npx skills add vinimrdi/ux-laws-principles
 
 # Option B — manual (always works)
-git clone https://github.com/vinimrdi/leis-de-ux.git
-cp -r leis-de-ux/skills/ux-laws-principles ~/.claude/skills/ux-laws-principles
+git clone https://github.com/vinimrdi/ux-laws-principles.git
+cp -r ux-laws-principles/skills/ux-laws-principles ~/.claude/skills/ux-laws-principles
 # or: ~/.cursor/skills/  ·  ~/.agents/skills/  ·  project .claude/skills/
 ```
 
@@ -220,5 +220,4 @@ Maintained by **Planner**. Educational material — does not replace research, e
 
 [Contributing](CONTRIBUTING.md) · [Code of conduct](CODE_OF_CONDUCT.md) · [Strategy](docs/strategy-and-governance.md) · [Sources](skills/ux-laws-principles/references/sources-and-glossary.md)
 
-**Repository:** [github.com/vinimrdi/leis-de-ux](https://github.com/vinimrdi/leis-de-ux)  
-*Recommended rename (Settings → General → Repository name):* `ux-laws-principles` — GitHub keeps a redirect from the old name.
+**Repository:** [github.com/vinimrdi/ux-laws-principles](https://github.com/vinimrdi/ux-laws-principles)

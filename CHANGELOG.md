@@ -2,13 +2,16 @@
 
 Notable changes to this project are recorded here.
 
+## 1.4.3 — 2026-11-04
+
+- Repository renamed to **ux-laws-principles** (English URL and title).
+- Folders: `examples/`, `demos/`, `integrations/` (English paths).
+- README and install commands updated to the new name.
+- Social banner tagline aligned with product positioning.
+
 ## 1.4.2 — 2026-11-02
 
-- Added **Parkinson’s law** (project adage, not experimental UX law) to `ux-laws-and-effects.md`.
-- Added **Occam’s Razor** (design simplicity heuristic, not scientific UX law) to `ux-laws-and-effects.md`.
-- Added **uniform connectedness** (Palmer & Rock) to Gestalt in `principles-heuristics-gestalt.md`.
-- Updated symptom → concept index in `SKILL.md`.
-- Skill version 1.4.2.
+- Added Parkinson’s law, Occam’s Razor, and uniform connectedness.
 
 ## 1.4.1 — 2026-11-01
 
@@ -17,10 +20,6 @@ Notable changes to this project are recorded here.
 ## 1.4.0 — 2026-11-01
 
 - Governance docs in English; When NOT to use; severity scale; Definition of Done.
-
-## 1.3.0 — 2026-11-01
-
-- Full English knowledge base.
 
 ## 1.0.0 — 2026-10-30
 
