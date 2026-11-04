@@ -1,4 +1,4 @@
-# Sources, glossary and SEO for UX
+# Sources and glossary
 
 ## Editorial criteria and evidence hierarchy
 
@@ -45,6 +45,8 @@ Do not use a professional-application source as proof of a psychological mechani
 - Cowan, N. (2015). [George Miller’s magical number of immediate memory in retrospect](https://doi.org/10.1037/a0039035). Psychological Review, 122(3), 536–541. Critical revisit of the legacy and interpretation of Miller’s work.
 - Doherty, W. J. & Thadhani, A. J. (1982). *The Economic Value of Rapid Response Time*. IBM Technical Report GE20-0752-0. Technical report often associated with the so-called Doherty Threshold. The 400 ms figure should be treated as a historical/contextual reference, not a universal threshold or fixed goal for every interaction.
 - Accot, J. & Zhai, S. (1997). [Beyond Fitts’ law: Models for trajectory-based HCI tasks](https://doi.org/10.1145/258549.258760). CHI '97. Complements discussion of trajectory tasks, where the simple Fitts formulation may not suffice.
+- Nielsen, J. [Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/). Professional guidance on ~0.1 s / ~1 s / ~10 s response-time limits.
+- [web.dev, Web Vitals](https://web.dev/articles/vitals); [LCP](https://web.dev/articles/lcp); [INP](https://web.dev/articles/inp); [CLS](https://web.dev/articles/cls). Core Web Vitals field thresholds and definitions (verify current values on web.dev).
 
 ### Memory, attention, perception and experience
 
@@ -61,6 +63,7 @@ Do not use a professional-application source as proof of a psychological mechani
 ### Gestalt, mental models and interaction patterns
 
 - Koffka, K. (1935). *Principles of Gestalt Psychology*. Harcourt, Brace. Historical reference work for Gestalt psychology. Do not attribute every modern visual rule to a single study or author.
+- Palmer, S. & Rock, I. (1994). [Rethinking perceptual organization: The role of uniform connectedness](https://doi.org/10.3758/BF03206880).
 - Norman, D. A. (1988; later revised editions). *The Design of Everyday Things*. Basic Books. Reference for mental models, conceptual model, mapping, feedback, affordances and signifiers.
 - Nielsen, J. (2000). [End of Web Design](https://www.nngroup.com/articles/end-of-web-design/). Nielsen Norman Group. Text in which Nielsen formulates the idea later known as Jakob’s Law in the context of web conventions.
 - Nielsen, J. (2017). [Jakob’s Law of Internet User Experience](https://www.nngroup.com/videos/jakobs-law-internet-ux/). Nielsen Norman Group. Later explanation of the principle; treat as guidance on learned expectations, not an obligation to copy competitors.
@@ -82,6 +85,8 @@ Do not use a professional-application source as proof of a psychological mechani
 
 - W3C. [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/). Official standard with testable success criteria at levels A, AA and AAA.
 - W3C WAI. [WCAG Overview](https://www.w3.org/WAI/standards-guidelines/wcag/). Overview of principles and accessibility resources.
+- [WCAG 2.2 Success Criterion 2.3.3 Animation from Interactions](https://www.w3.org/TR/WCAG22/#animation-from-interactions).
+- [MDN, prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion).
 - ISO. [ISO 9241-210:2019](https://www.iso.org/standard/77520.html). Human-centred design standard for interactive systems.
 - NIST. [Human-Centered Design](https://www.nist.gov/itl/iad/human-factors-human-centered-design). Institutional materials on human factors and human-centred design.
 
@@ -106,11 +111,16 @@ This section records classification care that should be preserved on conceptual 
 | Zeigarnik | Effect/research line on interrupted tasks | Evidence and generalization to product motivation vary. |
 | Peak-end | Retrospective evaluation pattern | Original research studied specific experiences; do not universalize to every journey. |
 | Doherty | Historical system-performance heuristic | 400 ms is not a universal threshold or fixed goal. |
+| Response-time limits / Core Web Vitals | Engineering/performance guidance | Field thresholds change; verify against web.dev. Not a psychological law. |
 | Goal-gradient | Behavioral hypothesis/effect | Depends on goals, rewards and context; never fabricate progress. |
 | Aesthetic-usability | Documented perceptual effect | Perceived ease is not the same as real effectiveness or efficiency. |
 | Pareto | Empirical rule of unequal distribution | Not a UX law nor a guaranteed 80/20 proportion. |
 | Choice overload | Contextual decision phenomenon | Results depend on context, variety, preference and complexity. |
 | Endowment and sunk cost | Behavioral economics effects | Do not exploit to hinder cancellation, deletion or exit. |
+| Parkinson | Project adage | Not an experimental UX or interaction law. |
+| Occam's Razor | Design / philosophical heuristic | Not a scientific UX law. |
+| Uniform connectedness | Perceptual organization principle | Palmer & Rock; interface application is design interpretation. |
+| Motion / reduced motion | Accessibility practice (WCAG-related) | Respect prefers-reduced-motion; not a UX law. |
 
 ## Glossary
 
@@ -130,97 +140,8 @@ This section records classification care that should be preserved on conceptual 
 - **Journey:** stages and touchpoints traversed to achieve a goal.
 - **Usability testing:** observation of representative people performing relevant tasks.
 - **Guardrail metric:** indicator tracked to detect adverse effects of a change.
+- **Reduced motion / prefers-reduced-motion:** user preference (and CSS media feature) to minimize non-essential animation; respect it for comfort and accessibility.
+- **Core Web Vitals:** field metrics for loading (LCP), responsiveness (INP), and visual stability (CLS); thresholds are published on web.dev and can change.
+- **LCP / INP / CLS:** Largest Contentful Paint, Interaction to Next Paint, Cumulative Layout Shift — the three Core Web Vitals metrics.
 
-## SEO, AEO and GEO: discovery in search engines and AI systems
-
-Organic discovery should consider three complementary contexts. They overlap, but are not synonyms and do not guarantee ranking.
-
-### SEO: Search Engine Optimization
-
-**Goal:** make pages useful, accessible, crawlable and understandable for traditional search engines such as Google and Bing.
-
-**Application in this project:**
-- Use unique, descriptive titles that match search intent.
-- Structure pages with a clear H1 and hierarchical H2/H3.
-- Answer the main question without vague introductions.
-- Use stable URLs, internal links and links to primary sources.
-- Write original, up-to-date, readable and accessible content.
-- Optimize performance, mobile experience, indexability and metadata.
-- Avoid keyword stuffing, pages created only to rank, and repetitive content.
-
-### AEO: Answer Engine Optimization
-
-**Goal:** help answer engines find, understand and extract an accurate answer to a question.
-
-**Application in this project:**
-- Use real questions as subsection titles when that improves navigation.
-- Start each section with a direct, self-contained definition.
-- Explain concept, context, exceptions and limits right after the short answer.
-- Include FAQs with objective answers without sacrificing accuracy.
-- Use lists and tables when they help compare concepts.
-- Clearly distinguish law, effect, principle, heuristic, model and hypothesis.
-- Attach claims to identifiable sources, preferably primary ones.
-- Do not create artificial answers only to chase featured snippets.
-
-### GEO: Generative Engine Optimization
-
-**Goal:** increase clarity, reliability and retrievability of content in generative AI systems and search engines with synthesized answers.
-
-**Application in this project:**
-- Present explicit definitions, full names, synonyms and original English terms on first occurrence.
-- Keep each explanation understandable outside immediate context, without removing caveats.
-- Identify authors, dates, publications, DOIs and stable links whenever available.
-- Separate original evidence, review, professional guidance and application inference.
-- Publish original examples, application criteria and concrete limitations.
-- Keep Markdown files organized, readable and with working internal links.
-- Identify authorship, maintainer, license, version and review date.
-- Distribute content through legitimate, relevant channels, preserving links to the canonical source.
-
-### Questions and terms the content should answer
-
-Prioritize natural coverage of queries such as:
-- What are UX laws?
-- What are the main UX laws?
-- What are Nielsen’s 10 heuristics?
-- How to apply Fitts’s Law to buttons and interfaces?
-- What is the Hick-Hyman Law and how to organize options?
-- How to improve usability of a site or app?
-- How to run a heuristic evaluation?
-- How to apply UX to dashboards, SaaS and platforms?
-- How to reduce cognitive load in forms and onboarding?
-- How to improve digital accessibility according to WCAG 2.2?
-- How to use UX laws with Lovable, Claude Code, Cursor and other AI tools?
-
-These queries are search-intent hypotheses. Validate demand and language with Search Console, keyword tools, site data and real user questions. Do not assume search volume.
-
-### Limits and transparency
-
-No SEO, AEO or GEO practice guarantees indexing, prominence, inclusion in answers, citation by AI or traffic. External systems change their algorithms and criteria. Do not promise “ranking in ChatGPT”, “being cited by Google” or equivalent results. The controllable goal is to publish original, verifiable, technically accessible and easy-to-understand content.
-
-## SEO and organic discovery
-
-SEO helps content be found and understood. No technique guarantees fame, virality or a specific position in Google.
-
-**Primary keyword:** UX laws.
-
-**Secondary keywords:** UX principles; usability heuristics; usability laws; psychology applied to UX; interaction design; Nielsen heuristics; Gestalt in design; mental models in UX; cognitive load in interfaces; user experience in digital products; heuristic evaluation; digital accessibility; usability testing; UX for websites; UX for dashboards; UX for SaaS; UX for apps; UX in Lovable; UX with AI; AEO; GEO; answer engine optimization; generative engine optimization.
-
-**Search intent:** informational and educational.
-
-**Suggested SEO title:** UX Laws: Complete Guide to Usability, Principles and Heuristics.
-
-**Suggested SEO description:** Learn the main UX laws, Nielsen heuristics, Gestalt principles and behavior models. Understand what they are, why they matter and how to apply them in digital products.
-
-**Suggested slug:** ux-laws.
-
-### Structure for web publication
-
-A descriptive H1; H2 by category; H3 by concept; navigable table of contents; internal links; primary sources; original examples; review date; editorial owner; alternative texts; semantic tables.
-
-### Good practices
-
-Answer search intent at the start. Use English terms and common synonyms on first occurrence. Avoid artificial keyword repetition. Include original examples, verifiable sources and working links. Maintain stable URLs, speed, accessibility, readability and mobile experience.
-
-### Authority and popularity
-
-SEO does not guarantee fame. To broaden adoption, combine original content, examples, sources, clear license, versions, external contributions, community outreach and maintenance. Do not confuse vanity metrics with real usefulness.
+For repository publishing and discovery guidance, see [SEO, AEO and GEO](../../../docs/seo-and-discovery.md).
