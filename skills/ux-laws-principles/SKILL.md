@@ -3,7 +3,7 @@ name: ux-laws-principles
 description: Evidence-based UX skill for AI agents and designers. Apply UX laws, Nielsen heuristics, Gestalt, cognitive load, mental models, accessibility (WCAG), and research methods when creating, reviewing, or auditing digital products. Use for sites, landing pages, dashboards, SaaS, apps, forms, onboarding, navigation, checkout, conversion flows, heuristic evaluation, usability review, and AI-generated UI with Claude Code, Cursor, Lovable, Codex, Copilot, and similar tools. Do not use for pure visual styling preferences, brand identity, or marketing copy with no task or usability implication.
 metadata:
   author: vinimrdi
-  version: "1.4.2"
+  version: "1.4.4"
   language: en
   tags: [ux, usability, design, agent-skills, accessibility, product-design, heuristic-evaluation]
 ---
@@ -36,20 +36,6 @@ Do **not** activate (or treat findings as primary) when:
 - Legal, medical, or regulatory compliance is the sole question (defer to specialists; this skill may still inform accessibility)
 - The user only asks for a glossary definition with no product decision
 - There is no user task, interface, or flow to evaluate
-
-## Common questions (direct answers)
-
-**What are UX laws?**  
-Trends and principles that help explain how people perceive, decide, and interact with products. Not every concept popularly called a law is a scientific law.
-
-**Which UX laws are most known?**  
-Fitts, Hick-Hyman, Jakob, Miller, and Prägnanz are among the most cited. The field also uses effects, heuristics, perceptual principles, and behavioral models.
-
-**How do I apply UX laws to sites and apps?**  
-Identify the user task and the observed friction, select the relevant concept, check its source and limits, propose a specific change, and validate with users or data.
-
-**Does this skill work with Lovable, Claude Code, and Cursor?**  
-Yes. The Markdown content can be used as context in different tools. Automatic installation as an Agent Skill depends on each environment’s support. See the compatibility documentation.
 
 ## Mandatory method: What, Why, Who, Where, When, How
 
@@ -163,6 +149,7 @@ Never write only "this violates Hick’s Law". Explain which options compete, wh
 | Abandoned multi-step flows | Zeigarnik, Goal-Gradient |
 | Experience remembered by worst moment or ending | Peak-End Rule |
 | Interface feels frozen | Doherty Threshold |
+| Slow load, layout jumps, sluggish taps | Doherty threshold, Core Web Vitals |
 | Attractive but hard to use | Aesthetic-Usability Effect |
 | Progress feels invisible | Goal-Gradient |
 | Scope or steps expand without value | Parkinson’s law (project adage) |
@@ -178,31 +165,6 @@ Read only the file needed:
 - [Cognitive, behavioral and experience models](references/ux-models.md)
 - [Practical application by product and journey](references/practical-application.md)
 - [Research, evaluation and validation](references/research-and-validation.md)
-- [Sources, glossary and SEO](references/sources-and-glossary.md)
+- [Sources and glossary](references/sources-and-glossary.md)
 
-## Where this skill is most useful
-
-**Situations**
-- AI-generated UI that looks generic or ignores task flow
-- Landing pages and marketing sites with weak hierarchy or unclear next step
-- SaaS dashboards and complex forms
-- Onboarding and multi-step flows with high drop-off
-- Accessibility and inclusive design reviews
-- Conversion and trust-sensitive moments (checkout, signup, pricing)
-- Design critiques and heuristic evaluations
-
-**Primary AI environments**
-- Claude Code / Claude Desktop
-- Cursor
-- Lovable
-- OpenAI Codex
-- GitHub Copilot
-- Windsurf, Cline, Roo Code, and other agents that load SKILL.md or Markdown context
-
-**Secondary use**
-- ChatGPT, Gemini, and other chat interfaces when files are provided as context
-- Human designers and researchers as a structured reference
-
-## Version
-
-1.4.2 — Added Parkinson’s law, Occam’s Razor, and uniform connectedness (with correct category labels).
+Version history: see [CHANGELOG.md](../../CHANGELOG.md).
