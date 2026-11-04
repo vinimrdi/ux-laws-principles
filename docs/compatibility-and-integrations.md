@@ -85,7 +85,7 @@ Implement only the approved findings from the UX Laws & Principles audit.
 
 Respect the authorized scope and preserve the design system, tokens, components, naming and existing decisions. Before changing a shared structure, identify the impact. Do not perform additional refactors or improvements outside scope.
 
-For each change, explain the problem fixed and the UX concept applied. Do not change database, secrets, paid integrations or publish without explicit authorization. At the end, report changed files, tests run, limitations and points that require visual QA.
+For each change, explain the problem fixed, the UX concept applied, and why it fits — in plain language the user can learn from. Do not change database, secrets, paid integrations or publish without explicit authorization. At the end, report changed files, tests run, limitations and points that require visual QA.
 ```
 
 ### Prompt for reviewing a new screen

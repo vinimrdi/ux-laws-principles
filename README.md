@@ -7,7 +7,7 @@
 Laws, heuristics, Gestalt, cognitive models, and accessibility — applied with a method, not as slogans.
 
 [![License: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
-[![Skill](https://img.shields.io/badge/skill-v1.4.4-blue?style=flat-square)](skills/ux-laws-principles/SKILL.md)
+[![Skill](https://img.shields.io/badge/skill-v1.4.5-blue?style=flat-square)](skills/ux-laws-principles/SKILL.md)
 [![Language](https://img.shields.io/badge/language-English-blue?style=flat-square)](#language)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 
@@ -28,6 +28,8 @@ They cite Hick when the problem is hierarchy. They invent DOIs. They treat “7 
 This skill is a portable methodology so agents (and humans) **diagnose friction before naming a law**, keep sources honest, and produce findings you can act on.
 
 > The goal is not to collect rules. It is to understand the task, explain the problem, and validate the fix.
+
+Explains the why behind every applied change, in plain language — so you or your client learn as you build, and can judge the call.
 
 ---
 
@@ -94,6 +96,8 @@ without a validation plan.
 | **Practice** | Forms, onboarding, dashboards, checkout, mobile, ethical conversion |
 | **Research** | Usability tests, analytics, experiments, accessibility |
 | **Sources & glossary** | Evidence hierarchy, bibliography, concept classification |
+
+Explains the why behind every applied change, in plain language — so you or your client learn as you build, and can judge the call.
 
 Publishing / discovery notes: [SEO, AEO and GEO](docs/seo-and-discovery.md).
 

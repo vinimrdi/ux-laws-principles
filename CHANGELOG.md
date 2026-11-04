@@ -2,6 +2,11 @@
 
 Notable changes to this project are recorded here.
 
+## 1.4.5 — 2026-11-04
+
+- Added standing behavior **Explain while applying (teach, don't just fix)** to `SKILL.md`: agents must state concept, category, task fit, expected benefit, and confidence in plain language on every use.
+- README and Lovable implementation prompt updated so users know teaching is a core feature.
+
 ## 1.4.4 — 2026-11-04
 
 - Synced version to **1.4.4** in SKILL.md, README badge, and CHANGELOG.

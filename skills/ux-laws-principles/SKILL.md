@@ -3,7 +3,7 @@ name: ux-laws-principles
 description: Evidence-based UX skill for AI agents and designers. Apply UX laws, Nielsen heuristics, Gestalt, cognitive load, mental models, accessibility (WCAG), and research methods when creating, reviewing, or auditing digital products. Use for sites, landing pages, dashboards, SaaS, apps, forms, onboarding, navigation, checkout, conversion flows, heuristic evaluation, usability review, and AI-generated UI with Claude Code, Cursor, Lovable, Codex, Copilot, and similar tools. Do not use for pure visual styling preferences, brand identity, or marketing copy with no task or usability implication.
 metadata:
   author: vinimrdi
-  version: "1.4.4"
+  version: "1.4.5"
   language: en
   tags: [ux, usability, design, agent-skills, accessibility, product-design, heuristic-evaluation]
 ---
@@ -77,6 +77,23 @@ When explaining a concept, consult the corresponding reference in `references/` 
 - Prefer the smallest effective intervention.
 - Do not turn aesthetic preference into a universal rule.
 - A well-known law does not prove that a change will increase conversion or retention.
+
+## Explain while applying (teach, don't just fix)
+
+Whenever this skill is used — in a review or when implementing a change — explain the reasoning in plain language so the person understands why each decision was made and can learn from it. This builds understanding and lets the user judge whether the application was sound.
+
+For each applied concept, briefly state:
+- The concept and its category (law / effect / principle / heuristic / model).
+- Why it fits this specific task or observed friction, not in the abstract.
+- The expected benefit and what would confirm it.
+
+Keep it useful, not noise:
+- Proportional: one or two sentences per decision; expand only when the decision carries real weight.
+- Written for the person's level; define a term the first time it appears; no unexplained jargon.
+- Honest: name limits and label confidence (confirmed / probable / hypothesis). Teaching is not selling; a concept never proves a change will work.
+- Do not cite a concept without a task, and do not lecture. If a change is trivial, a short note is enough.
+
+Goal: the person ends with a better interface and an understanding of why, not just a list of edits.
 
 ## Workflow
 
