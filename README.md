@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="banner.png" alt="UX Laws & Principles — Evidence-based UX skill for AI agents" width="100%"/>
+<img src="banner-preview.png" alt="UX Laws & Principles — Evidence-based UX skill for AI agents" width="100%"/>
 
 # UX Laws & Principles
 
