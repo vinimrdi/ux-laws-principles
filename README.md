@@ -13,7 +13,7 @@ Laws, heuristics, Gestalt, cognitive models, and accessibility — applied with 
 
 **No fake citations. No “this violates Hick’s Law” without a task. No dark patterns dressed as psychology.**
 
-[Skill](skills/ux-laws-principles/SKILL.md) · [References](skills/ux-laws-principles/references/) · [Examples](exemplos/) · [Install](#install) · [Changelog](CHANGELOG.md)
+[Skill](skills/ux-laws-principles/SKILL.md) · [References](skills/ux-laws-principles/references/) · [Examples](examples/) · [Install](#install) · [Changelog](CHANGELOG.md)
 
 </div>
 
@@ -47,7 +47,7 @@ cp -r leis-de-ux/skills/ux-laws-principles ~/.claude/skills/ux-laws-principles
 
 **Lovable / chat tools:** add `skills/ux-laws-principles/SKILL.md` and the needed files under `references/` as project context. Prefer a **read-only audit** first.
 
-Full matrix: [Compatibility and integrations](docs/compatibility-and-integrations.md) · [Lovable](integracoes/lovable/README.md)
+Full matrix: [Compatibility and integrations](docs/compatibility-and-integrations.md) · [Lovable](integrations/lovable/README.md)
 
 ---
 
@@ -220,4 +220,5 @@ Maintained by **Planner**. Educational material — does not replace research, e
 
 [Contributing](CONTRIBUTING.md) · [Code of conduct](CODE_OF_CONDUCT.md) · [Strategy](docs/strategy-and-governance.md) · [Sources](skills/ux-laws-principles/references/sources-and-glossary.md)
 
-**Repo:** [github.com/vinimrdi/leis-de-ux](https://github.com/vinimrdi/leis-de-ux)
+**Repository:** [github.com/vinimrdi/leis-de-ux](https://github.com/vinimrdi/leis-de-ux)  
+*Recommended rename (Settings → General → Repository name):* `ux-laws-principles` — GitHub keeps a redirect from the old name.
