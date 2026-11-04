@@ -7,7 +7,7 @@
 Laws, heuristics, Gestalt, cognitive models, and accessibility — applied with a method, not as slogans.
 
 [![License: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
-[![Skill](https://img.shields.io/badge/skill-v1.4.2-blue?style=flat-square)](skills/ux-laws-principles/SKILL.md)
+[![Skill](https://img.shields.io/badge/skill-v1.4.4-blue?style=flat-square)](skills/ux-laws-principles/SKILL.md)
 [![Language](https://img.shields.io/badge/language-English-blue?style=flat-square)](#language)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 
@@ -36,13 +36,16 @@ This skill is a portable methodology so agents (and humans) **diagnose friction 
 Works with hosts that load Agent Skills (Claude Code, Cursor, Codex, Copilot, and similar):
 
 ```bash
-# Option A — skills CLI (when available for this repo)
-npx skills add vinimrdi/ux-laws-principles
-
-# Option B — manual (always works)
+# Reliable path — always works
 git clone https://github.com/vinimrdi/ux-laws-principles.git
 cp -r ux-laws-principles/skills/ux-laws-principles ~/.claude/skills/ux-laws-principles
 # or: ~/.cursor/skills/  ·  ~/.agents/skills/  ·  project .claude/skills/
+```
+
+If a skills CLI that supports this repository is available in your environment, you may also try:
+
+```bash
+npx skills add vinimrdi/ux-laws-principles
 ```
 
 **Lovable / chat tools:** add `skills/ux-laws-principles/SKILL.md` and the needed files under `references/` as project context. Prefer a **read-only audit** first.
@@ -85,12 +88,14 @@ without a validation plan.
 | Piece | Role |
 |-------|------|
 | **[SKILL.md](skills/ux-laws-principles/SKILL.md)** | When to activate, method, output format, severity, Definition of Done |
-| **Laws & effects** | Fitts, Hick-Hyman, Jakob, Miller, Peak-end, Zeigarnik, … with limits |
-| **Principles & Gestalt** | Nielsen heuristics, Norman, proximity, uniform connectedness, … |
+| **Laws & effects** | Fitts, Hick-Hyman, Jakob, Miller, Peak-end, Zeigarnik, Core Web Vitals, … with limits |
+| **Principles & Gestalt** | Nielsen heuristics, Norman, proximity, uniform connectedness, reduced motion, … |
 | **Models** | Mental models, cognitive load, Fogg, COM-B, HEART, JTBD, … |
 | **Practice** | Forms, onboarding, dashboards, checkout, mobile, ethical conversion |
 | **Research** | Usability tests, analytics, experiments, accessibility |
-| **Sources & glossary** | Evidence hierarchy, SEO/AEO/GEO notes |
+| **Sources & glossary** | Evidence hierarchy, bibliography, concept classification |
+
+Publishing / discovery notes: [SEO, AEO and GEO](docs/seo-and-discovery.md).
 
 ---
 
@@ -166,6 +171,7 @@ Diagnose before you cite. Prefer the smallest effective intervention. Do not tur
 | Forgotten context between screens | Miller, recognition over recall |
 | Multi-step abandonment | Zeigarnik, goal-gradient |
 | Frozen-feeling UI | Doherty threshold |
+| Slow load, layout jumps, sluggish taps | Doherty threshold, Core Web Vitals |
 | Scope expands without value | Parkinson (project adage) |
 | Extra chrome, no task benefit | Occam (simplicity heuristic) |
 
