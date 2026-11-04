@@ -1,33 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="UX Laws and Principles">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a1f1a"/>
-      <stop offset="55%" stop-color="#0d2a22"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b221c"/>
+      <stop offset="50%" stop-color="#0d2a22"/>
       <stop offset="100%" stop-color="#0a1c18"/>
     </linearGradient>
   </defs>
   <rect width="1280" height="640" fill="url(#bg)"/>
-  <!-- soft vignette -->
-  <rect width="1280" height="640" fill="#000000" opacity="0.12"/>
 
   <!-- top label -->
-  <g transform="translate(96, 168)">
-    <circle cx="6" cy="-4" r="3" fill="#c8f542"/>
-    <text x="20" y="0" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" letter-spacing="0.22em" fill="#a8b5ad">EVIDENCE-BASED UX SKILL FOR AI AGENTS</text>
+  <g fill="#b7c4bc" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" letter-spacing="0.28em">
+    <text x="96" y="168">&#9670;  EVIDENCE-BASED UX SKILL FOR AI AGENTS</text>
   </g>
 
-  <!-- title -->
-  <text x="96" y="290" font-family="Georgia, 'Times New Roman', Times, serif" font-size="72" font-weight="400" fill="#e8eee9">UX Laws &amp;</text>
-  <text x="430" y="290" font-family="Georgia, 'Times New Roman', Times, serif" font-size="72" font-weight="400" font-style="italic" fill="#c8f542">Principles</text>
+  <!-- title: one line with correct spacing -->
+  <text x="96" y="300" font-family="Georgia, 'Times New Roman', Times, serif" font-size="68" xml:space="preserve">
+    <tspan fill="#e8eee9">UX Laws &amp; </tspan><tspan fill="#d4f53d" font-style="italic">Principles</tspan>
+  </text>
 
   <!-- tagline -->
-  <text x="96" y="370" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="400" fill="#d5ddd8">Diagnose the friction before you name the law.</text>
-  <text x="96" y="410" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#7a8a82">Laws, heuristics, Gestalt, cognitive models and accessibility, with real sources.</text>
+  <text x="96" y="380" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#d8e0db">Diagnose the friction before you name the law.</text>
+  <text x="96" y="418" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#7f9188">Laws, heuristics, Gestalt, cognitive models and accessibility, with real sources.</text>
 
   <!-- footer -->
-  <g transform="translate(96, 540)">
-    <circle cx="6" cy="-4" r="3" fill="#c8f542"/>
-    <text x="20" y="0" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0.18em" fill="#a8b5ad">MAINTAINED BY PLANNER · INTELIGÊNCIA DIGITAL</text>
-  </g>
-  <text x="1184" y="540" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#6a7a72">github.com/vinimrdi/ux-laws-principles</text>
+  <text x="96" y="540" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0.2em" fill="#b7c4bc">&#9670;  MAINTAINED BY PLANNER &#183; INTELIG&#202;NCIA DIGITAL</text>
+  <text x="1184" y="540" text-anchor="end" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#6d7f76">github.com/vinimrdi/ux-laws-principles</text>
 </svg>
