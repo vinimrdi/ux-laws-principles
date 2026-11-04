@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/social-banner.svg" alt="UX Laws & Principles — Evidence-based UX skill for AI agents" width="100%"/>
+
 # UX Laws & Principles
 
 **Evidence-based UX for agents that don’t invent laws.**
