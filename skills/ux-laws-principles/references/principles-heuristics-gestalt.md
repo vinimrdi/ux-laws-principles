@@ -122,6 +122,16 @@ Consistency; progressive disclosure; safe and reversible defaults; direct manipu
 
 **Normative sources:** [W3C, WCAG 2.2](https://www.w3.org/TR/WCAG22/) and [W3C WAI, WCAG Overview](https://www.w3.org/WAI/standards-guidelines/wcag/). WCAG 2.2 has testable criteria and levels A, AA and AAA. Isolated automated checks do not prove conformance. Evaluate full pages and responsive states.
 
+### Motion and reduced motion
+- **What:** Non-essential motion can cause distraction and, for some people, vestibular discomfort.
+- **Why:** Animation that cannot be controlled or that forces continuous movement conflicts with user preference and can harm focus or comfort.
+- **Who:** People who prefer reduced motion; anyone on constrained devices when motion competes with performance.
+- **Where:** Transitions, loaders, parallax, decorative animation, autoplaying motion.
+- **When:** Motion is not required to understand state or complete the task.
+- **How:** Respect the user’s reduced-motion preference (`prefers-reduced-motion`); keep motion purposeful and interruptible; prefer compositor-friendly properties (`transform`, `opacity`) so animation does not hurt performance or cause layout shift.
+- **Limit:** Essential motion that conveys meaning may still be needed; provide a non-animated equivalent when possible.
+- **Reference:** [WCAG 2.2 Success Criterion 2.3.3 Animation from Interactions](https://www.w3.org/TR/WCAG22/#animation-from-interactions); [MDN, prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion).
+
 ## Ethics and autonomy
 
 The recommendations in this section are editorial and ethical design criteria of the project. For evaluation of manipulative patterns, also consult [FTC, Bringing Dark Patterns to Light](https://www.ftc.gov/reports/bringing-dark-patterns-light) and [OECD, Dark Commercial Patterns](https://www.oecd.org/en/publications/dark-commercial-patterns_44f5e846-en.html).

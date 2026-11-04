@@ -132,6 +132,17 @@ UX laws are behavioral or perceptual trends, not deterministic formulas. For eac
 - **Limit:** Feedback does not make a slow operation fast; measure.
 - **Reference:** [Doherty & Thadhani (1982), The Economic Value of Rapid Response Time](https://www.ibm.com/support/pages/system/files/inline-files/EconomicValueofResponseTime.pdf). IBM technical report; the 400 ms reference is not a universal standard.
 
+## Response-time limits and Core Web Vitals
+- **Category:** Engineering/performance guidance grounded in perception research — **not** a psychological law. Complements the Doherty threshold.
+- **What:** Perceived speed shapes whether an interface feels responsive. Two reference sets are used in practice: Nielsen’s three response-time limits (about 0.1 s feels instant, about 1 s keeps flow without special feedback, about 10 s is the limit of attention) and Google’s Core Web Vitals field thresholds.
+- **Why:** Delay without feedback creates uncertainty and abandonment; layout that shifts under the user causes mis-taps and lost trust.
+- **Who:** All users, worse on slow networks and low-end devices.
+- **Where:** Page load, navigation, search, generation, any state transition.
+- **When:** The interface feels slow, frozen, or jumps while loading.
+- **How:** Give immediate feedback and real progress; reserve space so content does not shift; measure with field data, not only lab. Current “good” Core Web Vitals thresholds (verify against web.dev; they can change): Largest Contentful Paint (LCP) ≤ 2.5 s; Interaction to Next Paint (INP) ≤ 200 ms; Cumulative Layout Shift (CLS) ≤ 0.1. INP replaced First Input Delay as a Core Web Vital in March 2024.
+- **Limit:** Fast metrics do not fix an unclear task or a wrong flow; a good score is not a good experience. These are field guidance, not a universal interaction law.
+- **Reference:** [Nielsen, Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/); [web.dev, Web Vitals](https://web.dev/articles/vitals); [LCP](https://web.dev/articles/lcp); [INP](https://web.dev/articles/inp); [CLS](https://web.dev/articles/cls).
+
 ## Goal-gradient effect
 - **What:** Motivation can increase when the person perceives proximity to the goal.
 - **Why:** Progress makes completion more concrete.
