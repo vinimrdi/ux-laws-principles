@@ -35,6 +35,21 @@ Explains the why behind every applied change, in plain language — so you or yo
 
 ---
 
+## Related skill — optical craft
+
+When the interface is **task-correct** but still looks wrong (play icon off-center, circle vs square scale, icon sets uneven, type overshoot), pair this skill with:
+
+**[Optical Alignment UI](https://github.com/vinimrdi/optical-adjustment)** (`optical-alignment-ui`) — precision vs perception for icons, type, and visual weight.
+
+| Skill | Use for |
+|-------|---------|
+| **ux-laws-principles** (this repo) | Task friction, heuristics, Gestalt, a11y, ethical UX |
+| [optical-alignment-ui](https://github.com/vinimrdi/optical-adjustment) | Mathematical vs optical centering, visual weight, keylines |
+
+Diagnose the **job** here first; polish **perception** there second.
+
+---
+
 ## Install
 
 Works with hosts that load Agent Skills (Claude Code, Cursor, Codex, Copilot, and similar):
@@ -161,6 +176,8 @@ Diagnose before you cite. Prefer the smallest effective intervention. Do not tur
 | AI UI that ignores task or invents UX rules | Marketing copy or SEO keywords only |
 | Heuristic evaluation, accessibility-informed review | Glossary lookup with no product decision |
 | Conversion moments that must stay ethical | No interface, flow, or user task to evaluate |
+
+For pure optical centering / icon weight with no task claim, prefer [Optical Alignment UI](https://github.com/vinimrdi/optical-adjustment).
 
 ---
 
