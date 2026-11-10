@@ -52,22 +52,30 @@ Diagnose the **job** here first; polish **perception** there second.
 
 ## Install
 
-Works with hosts that load Agent Skills (Claude Code, Cursor, Codex, Copilot, and similar):
+Full guide: [INSTALL.md](INSTALL.md).
+
+### Claude Code (one command)
 
 ```bash
-# Reliable path — always works
-git clone https://github.com/vinimrdi/ux-laws-principles.git
-cp -r ux-laws-principles/skills/ux-laws-principles ~/.claude/skills/ux-laws-principles
+npx skills add https://github.com/vinimrdi/ux-laws-principles/tree/main/skills/ux-laws-principles -g -a claude-code
+```
+
+### Manual
+
+```bash
+git clone --depth 1 https://github.com/vinimrdi/ux-laws-principles.git /tmp/ux-laws-principles
+mkdir -p ~/.claude/skills
+cp -R /tmp/ux-laws-principles/skills/ux-laws-principles ~/.claude/skills/ux-laws-principles
 # or: ~/.cursor/skills/  ·  ~/.agents/skills/  ·  project .claude/skills/
 ```
 
-If a skills CLI that supports this repository is available in your environment, you may also try:
+`SKILL.md` must sit at `~/.claude/skills/ux-laws-principles/SKILL.md`.
 
-```bash
-npx skills add vinimrdi/ux-laws-principles
-```
+### Claude.ai (web)
 
-**Lovable / chat tools:** add `skills/ux-laws-principles/SKILL.md` and the needed files under `references/` as project context. Prefer a **read-only audit** first.
+Paste `skills/ux-laws-principles/SKILL.md` into a skill review card, or upload a **flat ZIP** of that folder. A GitHub link alone is not enough.
+
+**Lovable / chat tools:** add `SKILL.md` and needed `references/` as project context. Prefer a **read-only audit** first.
 
 Full matrix: [Compatibility and integrations](docs/compatibility-and-integrations.md) · [Lovable](integrations/lovable/README.md)
 
